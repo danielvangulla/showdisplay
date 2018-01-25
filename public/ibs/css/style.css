@@ -865,18 +865,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* Safari and Chrome */
-        @-webkit-keyframes changeBg
-        {
-            0%   {background: url("../img/0.png");}
-            17%   {background: url("../img/1.jpg");}
-            34%   {background: url("../img/2.jpg");}
-            51%   {background: url("../img/3.jpg");}
-            78%   {background: url("../img/4.jpg");}
-            85%   {background: url("../img/5.jpg");}
-            100%   {background: url("../img/6.jpg");}
-        }
-		
-		#hero
-        {            
-            -webkit-animation:changeBg 10s infinite;
-        }
+@-webkit-keyframes changeBg
+{
+	0%   {background: url("../img/0.png");}
+	17%   {background: url("../img/1.jpg");}
+	34%   {background: url("../img/2.jpg");}
+	51%   {background: url("../img/3.jpg");}
+	78%   {background: url("../img/4.jpg");}
+	85%   {background: url("../img/5.jpg");}
+	100%   {background: url("../img/6.jpg");}
+}
+
+#hero
+{            
+	-webkit-animation:changeBg 10s infinite;
+}
