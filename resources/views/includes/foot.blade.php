@@ -18,6 +18,7 @@
   <script src="{{ URL::asset('ibs/contactform/contactform.js') }}"></script>
   
   <!-- Script For MAP GIS -->
+  <script src="{{ URL::asset('gis/map1.js') }}"></script>
   <script src="{{ URL::asset('gis/map2.js') }}"></script>
   <script src="{{ URL::asset('gis/map3.js') }}"></script>
   <script src="{{ URL::asset('gis/map4.js') }}"></script>

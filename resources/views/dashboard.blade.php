@@ -8,9 +8,14 @@
 			
 			<div class="col-md-3 contents">
 				
-				<div class="col-md-8 logomdokota" ></div>
-				
 				<div class="col-md-4 teamlogo" ></div>
+				
+				<div class="col-md-12" >
+					<h3 class="text-center" style="margin-top:15px; margin-bottom:0px;"> Map2 Title</h3>
+					<a href="#map1">
+						<div class="folium-map" id="map1" style="height:250px; width:100%;"></div>
+					</a>
+				</div>
 				
 				<div class="col-md-12" >
 					<h3 class="text-center" style="margin-top:15px; margin-bottom:0px;"> Map2 Title</h3>

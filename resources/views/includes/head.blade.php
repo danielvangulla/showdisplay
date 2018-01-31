@@ -165,7 +165,7 @@
 		
 		.teamlogo {
 			margin-top : 10px;
-			height : 18vh;
+			height : 15vh;
 			width : 22vw;
 			
 		}
