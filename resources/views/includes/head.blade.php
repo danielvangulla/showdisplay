@@ -61,7 +61,10 @@
 		height: 100%;
 		margin: 0;
 		padding: 0;
-		
+		background : url('image/bgdashboard.jpg');
+		background-size:cover;
+		background-repeat:no-repeat;
+		background-position:center center;
 		}
 	</style>
 	<style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
@@ -84,7 +87,7 @@
 	<style>
 		.map-overlay {
 			font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
-			position: absolute;
+			position: relative;
 			width: 100%;
 			top: 10px;
 			left: 0;
@@ -120,4 +123,62 @@
 			cursor: ew-resize;
 		}
 	</style>
-	
+	<style>
+		body {
+			height: 100%;
+			width: 100%;
+			overflow : hidden;
+			overflow-y : auto;
+			position: absolute; 
+			left: 50%;
+			
+		}
+		
+		.sliderground {
+			margin : 5px;
+			position: relative; 
+			left: -50%;
+			
+			background: rgba(254,254,254,0.3);
+			background: -moz-linear-gradient(top, rgba(254,254,254,0.3) 1%, rgba(231,231,231,0.3) 27%, rgba(226,226,226,0.35) 32%, rgba(181,181,181,1) 100%);
+			background: -webkit-gradient(left top, left bottom, color-stop(1%, rgba(254,254,254,0.3)), color-stop(27%, rgba(231,231,231,0.3)), color-stop(32%, rgba(226,226,226,0.35)), color-stop(100%, rgba(181,181,181,1)));
+			background: -webkit-linear-gradient(top, rgba(254,254,254,0.3) 1%, rgba(231,231,231,0.3) 27%, rgba(226,226,226,0.35) 32%, rgba(181,181,181,1) 100%);
+			background: -o-linear-gradient(top, rgba(254,254,254,0.3) 1%, rgba(231,231,231,0.3) 27%, rgba(226,226,226,0.35) 32%, rgba(181,181,181,1) 100%);
+			background: -ms-linear-gradient(top, rgba(254,254,254,0.3) 1%, rgba(231,231,231,0.3) 27%, rgba(226,226,226,0.35) 32%, rgba(181,181,181,1) 100%);
+			background: linear-gradient(to bottom, rgba(254,254,254,0.3) 1%, rgba(231,231,231,0.3) 27%, rgba(226,226,226,0.35) 32%, rgba(181,181,181,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#b5b5b5', GradientType=0 );
+			
+			height : 98vh;
+			width : 99.2vw;
+		}
+		
+		.absolute {
+			margin : 5px;
+			height : 100%;
+		}
+		
+		.slider {
+			border : dotted red 1px;
+			height : 75vh;
+			
+		}
+		
+		.teamlogo {
+			margin-top : 10px;
+			height : 18vh;
+			width : 22vw;
+			
+		}
+		
+		.logomdokota {
+			height : 35vh;
+			width : 22vw;
+			
+		}
+		
+		.contents {
+			opacity : 1;
+		}
+		
+		
+	</style>

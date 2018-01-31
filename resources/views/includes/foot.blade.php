@@ -18,36 +18,67 @@
   <script src="{{ URL::asset('ibs/contactform/contactform.js') }}"></script>
   
   <!-- Script For MAP GIS -->
-  <script src="{{ URL::asset('gis/map1.js') }}"></script>
   <script src="{{ URL::asset('gis/map2.js') }}"></script>
   <script src="{{ URL::asset('gis/map3.js') }}"></script>
   <script src="{{ URL::asset('gis/map4.js') }}"></script>
 
-  <script>
-	var pics = [
-			'PetaManado1889_1.jpg',
-			'Manado1889_1.jpg',
-			'PetaManado1922.jpg',
-			'4',
-			'5',
-			'6'
-		];
+	<script>
+		
+		$('.teamlogo').css('content', 'url(image/LogoBIGDAKOM.jpeg)');
+		$('.logomdokota').css('content', 'url(image/logomdokota.jpeg)');
+		
+		var pics = [
+				'PetaManado1889.jpg',
+				'Manado1889.jpg',
+				'PetaManado19221.jpg',
+				'4',
+				'5',
+				'6'
+			];
 
-	function filterBy(pic) {
+		function filterBy(pic) {
 
-		$('body').css('background-image', 'url(image/'+pics[pic]+')');
-		$('body').css('background-size', '100%');
-		$('body').css('height', '50%');
+			$('.slider').css('content', 'url(image/'+pics[pic]+')');
+			// $('.slider').css('background-image', 'url(image/'+pics[pic]+')');
+			// $('.slider').css('background-size', '100%');
+			// $('.slider').css('height', '50%');
 
-		// Set the label to the month
-		// document.getElementById('month').textContent = pic;
-	}
+			// Set the label to the month
+			// document.getElementById('month').textContent = pic;
+		}
 
-	
-			filterBy(0);
+		filterBy(0);
 
-			document.getElementById('slider').addEventListener('input', function(e) {
-				var pic = parseInt(e.target.value, 10);
-				filterBy(pic);
+		document.getElementById('slider').addEventListener('input', function(e) {
+			var pic = parseInt(e.target.value, 10);
+			filterBy(pic);
+		});
+	</script>
+  
+  
+	<script type="text/javascript">
+		
+		if (document.addEventListener) { // IE >= 9; other browsers
+			document.addEventListener('contextmenu', function(e) {
+				var activemap = $(this).context.activeElement.id;
+				if (activemap == 'map1' || activemap == 'map2' || activemap == 'map3' || activemap == 'map4') {
+					x = confirm("Open FullScreen Mode ?");
+						if (x){
+							window.location.href = activemap;
+						}
+					e.preventDefault();
+				}
+			}, false);
+		} else { // IE < 9
+			document.attachEvent('oncontextmenu', function() {
+				// x = confirm("Open FullScreen Mode ?");
+					// if (x){
+						// alert(this.id);
+						// window.location.href = "map"+(this.id).toString();
+					// }
+				alert("silahkan upgrade browser anda..!!");
+				window.event.returnValue = false;
 			});
-  </script>
+		}
+		
+	</script>
