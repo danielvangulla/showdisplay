@@ -1,30 +1,7 @@
 <!--==========================
   Footer
 ============================-->
-  <footer id="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="copyright">
-            &copy; Copyright <strong>Imperial Theme</strong>. All Rights Reserved
-          </div>
-          <div class="credits">
-            <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Imperial
-            -->
-            Bootstrap Templates by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- #footer -->
-
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-
+  
   <!-- Required JavaScript Libraries -->
   <script src="{{ URL::asset('ibs/lib/jquery/jquery.min.js') }}"></script>
   <script src="{{ URL::asset('ibs/lib/bootstrap/js/bootstrap.min.js') }}"></script>
@@ -39,3 +16,38 @@
   <script src="{{ URL::asset('ibs/js/custom.js') }}"></script>
 
   <script src="{{ URL::asset('ibs/contactform/contactform.js') }}"></script>
+  
+  <!-- Script For MAP GIS -->
+  <script src="{{ URL::asset('gis/map1.js') }}"></script>
+  <script src="{{ URL::asset('gis/map2.js') }}"></script>
+  <script src="{{ URL::asset('gis/map3.js') }}"></script>
+  <script src="{{ URL::asset('gis/map4.js') }}"></script>
+
+  <script>
+	var pics = [
+			'PetaManado1889_1.jpg',
+			'Manado1889_1.jpg',
+			'PetaManado1922.jpg',
+			'4',
+			'5',
+			'6'
+		];
+
+	function filterBy(pic) {
+
+		$('body').css('background-image', 'url(image/'+pics[pic]+')');
+		$('body').css('background-size', '100%');
+		$('body').css('height', '50%');
+
+		// Set the label to the month
+		// document.getElementById('month').textContent = pic;
+	}
+
+	
+			filterBy(0);
+
+			document.getElementById('slider').addEventListener('input', function(e) {
+				var pic = parseInt(e.target.value, 10);
+				filterBy(pic);
+			});
+  </script>

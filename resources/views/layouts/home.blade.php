@@ -5,7 +5,10 @@
     </head>
     <body >
         
-        @include('includes.body')
+		<div id="content">
+			@yield('content')
+		</div>	
+			
         @include('includes.foot')
 		
     </body>

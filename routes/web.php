@@ -16,3 +16,4 @@
 // });
 
 route::get('/', 'HomeController@home');
+route::get('/map1', 'HomeController@map1');

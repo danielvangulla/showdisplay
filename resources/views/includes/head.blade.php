@@ -41,3 +41,83 @@
     Author: BootstrapMade.com
     Author URL: https://bootstrapmade.com
   ======================================================= -->
+
+  <script src="{{ URL::asset('js/vue.min.js') }}"></script>
+  <script src="{{ URL::asset('js/vue-router.js') }}"></script>
+  <script src="{{ URL::asset('js/leaflet.js') }}"></script>
+  
+  
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+	<link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+	<style>html, body {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		
+		}
+	</style>
+	<style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+	<style> #map1 {
+		position : relative;
+		width : 100.0%;
+		height: 100.0%;
+		left: 0.0%;
+		top: 0.0%;
+		}
+	</style>
+	<style> #map2 {
+		position : relative;
+		width : 100.0%;
+		height: 100.0%;
+		left: 0.0%;
+		top: 0.0%;
+		}
+	</style>
+	<style>
+		.map-overlay {
+			font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+			position: absolute;
+			width: 100%;
+			top: 10px;
+			left: 0;
+			padding: 10px;
+		}
+
+		.map-overlay .map-overlay-inner {
+			background-color: #fff;
+			box-shadow:0 1px 2px rgba(0, 0, 0, 0.20);
+			border-radius: 3px;
+			padding: 10px;
+			margin-bottom: 10px;
+		}
+
+		.map-overlay h2 {
+			line-height: 24px;
+			display: block;
+			margin: 0 0 10px;
+		}
+
+		.map-overlay .legend .bar {
+			height: 10px;
+			width: 100%;
+			background: linear-gradient(to right, #FCA107, #7F3121);
+		}
+
+		.map-overlay input {
+			background-color: transparent;
+			display: inline-block;
+			width: 99%;
+			position: relative;
+			margin: 0;
+			cursor: ew-resize;
+		}
+	</style>
+	

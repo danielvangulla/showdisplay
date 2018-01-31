@@ -1,0 +1,1 @@
+@extends('iframe.fullscreen.map1')

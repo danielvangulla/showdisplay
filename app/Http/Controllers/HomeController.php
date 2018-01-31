@@ -9,8 +9,12 @@ class HomeController extends Controller
 {
     public function home()
 	{
-		$data = DB::select('select * from content_home');
-		
-		return View('dashboard', compact('data'));
+		return View('dashboard');
 	}
+	
+    public function map1()
+	{
+		return View('map1');
+	}
+	
 }

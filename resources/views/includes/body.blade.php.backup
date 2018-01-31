@@ -12,10 +12,11 @@
         </div>
 
         <h1><span class="text-danger">BIG DATA GEOSPATIAL</span></h1>
-        <h1><span class="rotating">TO DO 1, TO DO 2, TO DO 3</span></h1>
+        <h1><span class="rotating">CENDIKIA, EKOWISATA, RELIGIUS, DAYA SAING, AMAN NYAMAN</span></h1>
         <div class="actions">
           <a href="#about" class="btn-get-started">DASHBOARD</a>
-          <a href="#services" class="btn-services">SERVICES</a>
+          <a href="#service" class="btn-services">GIS</a>
+          <a href="#portfolio" class="btn-services">DSS</a>
         </div>
       </div>
     </div>
@@ -37,8 +38,8 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="#hero">Home</a></li>
           <li><a href="#about">Dashboard</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#service">GIS</a></li>
+          <li><a href="#portfolio">DSS</a></li>
           <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#team">Team</a></li>
           <li class="menu-has-children"><a href="">Drop Down</a>
@@ -124,7 +125,7 @@
   <!--==========================
   Services Section
   ============================-->
-  <section id="services">
+  <section id="service">
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
@@ -193,7 +194,7 @@
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title">Portfolio</h3>
+          <h3 class="section-title">Decision Support System</h3>
           <div class="section-title-divider"></div>
           <p class="section-description">Si stante, hoc natura videlicet vult, salvam esse se, quod concedimus ses haec dicturum fuisse</p>
         </div>
