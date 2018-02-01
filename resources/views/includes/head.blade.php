@@ -178,7 +178,7 @@
 			margin-top : -140px;
 			margin-left : -35px;
 			height : 70vh;
-			width : 97vw;
+			width : 97.5vw;
 			-webkit-box-shadow: 0 0 10px #fff;
 			box-shadow: 0 0 10px #fff;
 		}
@@ -191,6 +191,8 @@
 		
 		#cssmenu {
 			float : left;
+			-webkit-box-shadow: 0 0 10px #fff;
+			box-shadow: 0 0 10px #fff;
 		}
 	</style>
 	

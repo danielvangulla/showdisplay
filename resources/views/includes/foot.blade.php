@@ -65,7 +65,7 @@
 				if (activemap == 'map1' || activemap == 'map2' || activemap == 'map3' || activemap == 'map4') {
 					// x = confirm("Open FullScreen Mode ?");
 						// if (x){
-							window.location.href = activemap;
+							window.open(activemap);
 						// }
 					e.preventDefault();
 				}

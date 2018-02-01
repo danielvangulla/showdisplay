@@ -8,7 +8,7 @@
 			
 			<div>
 				<ul>
-				   <li class='active'><a href='#'>Dashboard</a></li>
+				   <li class='active'><a href='#'>Home</a></li>
 				</ul>
 			</div>
 			<div>
@@ -26,7 +26,7 @@
 		<div class="col-md-12 absolute">
 		
 			
-			<div class="col-md-9 contents">
+			<div class="col-md-12 ">
 			
 				<div class="col-md-12"  id="hero"></div>
 				
@@ -51,11 +51,6 @@
 					
 				</div>
 			</div-->
-			
-			<div class="col-md-3 contents">
-			
-			
-			</div>
 			
 		</div>
 		
