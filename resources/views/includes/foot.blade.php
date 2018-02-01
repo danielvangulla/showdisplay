@@ -25,35 +25,35 @@
 
 	<script>
 		
-		$('.teamlogo').css('content', 'url(image/LogoBIGDAKOM.jpeg)');
-		$('.logomdokota').css('content', 'url(image/logomdokota.jpeg)');
+		// $('.teamlogo').css('content', 'url(image/LogoBIGDAKOM.jpeg)');
+		// $('.logomdokota').css('content', 'url(image/logomdokota.jpeg)');
 		
-		var pics = [
-				'PetaManado1889.jpg',
-				'Manado1889.jpg',
-				'PetaManado19221.jpg',
-				'4',
-				'5',
-				'6'
-			];
+		// var pics = [
+				// 'PetaManado1889.jpg',
+				// 'Manado1889.jpg',
+				// 'PetaManado19221.jpg',
+				// '4',
+				// '5',
+				// '6'
+			// ];
 
-		function filterBy(pic) {
+		// function filterBy(pic) {
 
-			$('.slider').css('content', 'url(image/'+pics[pic]+')');
+			// $('.slider').css('content', 'url(image/'+pics[pic]+')');
 			// $('.slider').css('background-image', 'url(image/'+pics[pic]+')');
 			// $('.slider').css('background-size', '100%');
 			// $('.slider').css('height', '50%');
 
 			// Set the label to the month
 			// document.getElementById('month').textContent = pic;
-		}
+		// }
 
-		filterBy(0);
+		// filterBy(0);
 
-		document.getElementById('slider').addEventListener('input', function(e) {
-			var pic = parseInt(e.target.value, 10);
-			filterBy(pic);
-		});
+		// document.getElementById('slider').addEventListener('input', function(e) {
+			// var pic = parseInt(e.target.value, 10);
+			// filterBy(pic);
+		// });
 	</script>
   
   

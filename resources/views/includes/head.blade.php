@@ -26,7 +26,9 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
-  <link href="{{ URL::asset('ibs/lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+	<link rel="stylesheet" href="{{ URL::asset('css/bootstrap.min.css') }}" />
+	<link rel="stylesheet" href="{{ URL::asset('css/bootstrap-theme.min.css') }}" />
+	<link rel="stylesheet" href="{{ URL::asset('css/font-awesome.min.css') }}" />
 
   <!-- Libraries CSS Files -->
   <link href="{{ URL::asset('ibs/lib/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
@@ -46,16 +48,10 @@
   <script src="{{ URL::asset('js/vue-router.js') }}"></script>
   <script src="{{ URL::asset('js/leaflet.js') }}"></script>
   
-  
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
-	<link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+	<script src="{{ URL::asset('js/leaflet.awesome-markers.js') }}"></script>
+	<link rel="stylesheet" href="{{ URL::asset('css/leaflet.css') }}" />
+	<link rel="stylesheet" href="{{ URL::asset('css/leaflet.awesome-markers.css') }}" />
+	<link rel="stylesheet" href="{{ URL::asset('css/leaflet.awesome.rotate.css') }}" />
 	<style>html, body {
 		width: 100%;
 		height: 100%;
@@ -127,8 +123,6 @@
 	</style>
 	<style>
 		body {
-			height: 100%;
-			width: 100%;
 			overflow : hidden;
 			overflow-y : auto;
 			position: absolute; 
@@ -152,6 +146,8 @@
 			
 			height : 98vh;
 			width : 99.2vw;
+			-webkit-box-shadow: 0 0 10px #fff;
+			box-shadow: 0 0 10px #fff;
 		}
 		
 		
@@ -179,9 +175,143 @@
 		}
 		
 		#hero {
-			margin-left : -45px;
+			margin-top : -140px;
+			margin-left : -35px;
 			height : 70vh;
-			width : 99vw;
+			width : 97vw;
+			-webkit-box-shadow: 0 0 10px #fff;
+			box-shadow: 0 0 10px #fff;
 		}
 		
+		.folium-map {
+			margin-top : 5px;
+			-webkit-box-shadow: 0 0 10px #fff;
+			box-shadow: 0 0 10px #fff;
+		}
+		
+		#cssmenu {
+			float : left;
+		}
 	</style>
+	
+	
+	
+<!-- css menu bar -->
+<style>
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu {
+  width: 180px;
+  z-index: 10;
+}
+#cssmenu ul {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background: #ffffff;
+  background: -moz-linear-gradient(bottom, #f0f0f0, #ffffff);
+  background: -webkit-linear-gradient(bottom, #f0f0f0, #ffffff);
+  background: -o-linear-gradient(bottom, #f0f0f0, #ffffff);
+  background: -ms-linear-gradient(bottom, #f0f0f0, #ffffff);
+  background: linear-gradient(to top, #f0f0f0, #ffffff);
+}
+#cssmenu ul li {
+  display: block;
+  border-bottom: 1px solid #cccccc;
+}
+#cssmenu ul li.active {
+  border-bottom: 0;
+}
+#cssmenu ul li:last-child {
+  border-bottom: 0;
+}
+#cssmenu ul li a {
+  display: block;
+  padding: 14px 12px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #444444;
+}
+#cssmenu ul li.active {
+  left: -8px;
+  width: 194px;
+  padding: 2px;
+  background: #ce4c4a;
+  background: -moz-linear-gradient(bottom, #c43735, #d56462);
+  background: -webkit-linear-gradient(bottom, #c43735, #d56462);
+  background: -o-linear-gradient(bottom, #c43735, #d56462);
+  background: -ms-linear-gradient(bottom, #c43735, #d56462);
+  background: linear-gradient(to top, #c43735, #d56462);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+#cssmenu ul li.active > a {
+  padding: 12px 12px 12px 16px;
+  border-left: 1px dashed #de8886;
+  border-top: 1px dashed #de8886;
+  border-bottom: 1px dashed #de8886;
+  color: #ffffff;
+  text-shadow: 0 1px 1px #8c2726;
+}
+#cssmenu ul li.active:after {
+  position: absolute;
+  right: -16px;
+  top: 7px;
+  width: 31.526911934581186px;
+  height: 31.526911934581186px;
+  background: #ce4c4a;
+  background: -moz-linear-gradient(-45deg, #c43735, #d56462);
+  background: -webkit-linear-gradient(-45deg, #c43735, #d56462);
+  background: -o-linear-gradient(-45deg, #c43735, #d56462);
+  background: -ms-linear-gradient(-45deg, #c43735, #d56462);
+  background: linear-gradient(-45deg, #c43735, #d56462);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  content: "";
+}
+#cssmenu ul li.active:before {
+  position: absolute;
+  right: -12px;
+  top: 9px;
+  z-index: 10;
+  width: 28.526911934581186px;
+  height: 28.526911934581186px;
+  border-right: 1px dashed #e9afae;
+  border-top: 1px dashed #e9afae;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  content: "";
+}
+#cssmenu ul li.active a:after {
+  position: absolute;
+  bottom: -7px;
+  left: -11px;
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 8px solid transparent;
+  border-right: 8px solid #982b29;
+  content: "";
+}
+</style>

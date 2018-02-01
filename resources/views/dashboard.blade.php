@@ -1,16 +1,34 @@
 @extends('layouts.home')
 @section('content')
 	
+	
 	<div class="col-md-12 sliderground">
+		
+		<div class="col-md-12" id='cssmenu'>
+			
+			<div>
+				<ul>
+				   <li class='active'><a href='#'>Dashboard</a></li>
+				</ul>
+			</div>
+			<div>
+				<ul>
+				   <li class='active'><a href='#'>BIG DATA</a></li>
+				</ul>
+			</div>
+			<div>
+				<ul>
+				   <li class='active'><a href='#'>DSS</a></li>
+				</ul>
+			</div>
+		</div>
 		
 		<div class="col-md-12 absolute">
 		
 			
 			<div class="col-md-9 contents">
-				
+			
 				<div class="col-md-12"  id="hero"></div>
-				
-				
 				
 			</div>
 			
@@ -46,28 +64,28 @@
 				<div class="col-md-3" >
 					<h3 class="text-center" style="margin-top:5px; margin-bottom:0px;"></h3>
 					<a href="#map1">
-						<div class="folium-map" id="map1" style="height:200px; width:100%;"></div>
+						<div class="folium-map" id="map1" style="height:26vh;"></div>
 					</a>
 				</div>
 				
 				<div class="col-md-3" >
 					<h3 class="text-center" style="margin-top:5px; margin-bottom:0px;"></h3>
 					<a href="#map2">
-						<div class="folium-map" id="map2" style="height:200px; width:100%;"></div>
+						<div class="folium-map" id="map2" style="height:26vh;"></div>
 					</a>
 				</div>
 				
 				<div class="col-md-3" >
 					<h3 class="text-center" style="margin-top:5px; margin-bottom:0px;"></h3>
 					<a href="#map3">
-						<div class="folium-map" id="map3" style="height:200px; width:100%;"></div>
+						<div class="folium-map" id="map3" style="height:26vh;"></div>
 					</a>
 				</div>
 				
 				<div class="col-md-3" >
 					<h3 class="text-center" style="margin-top:5px; margin-bottom:0px;"></h3>
 					<a href="#map4">
-						<div class="folium-map" id="map4" style="height:200px; width:100%;"></div>
+						<div class="folium-map" id="map4" style="height:26vh;"></div>
 					</a>
 				</div>
 		</div>
