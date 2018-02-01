@@ -66,21 +66,43 @@
 		}
 	</style>
 	<style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
-	<style> #map1 {
-		position : relative;
-		width : 100.0%;
-		height: 100.0%;
-		left: 0.0%;
-		top: 0.0%;
+	<style> 
+		#map1 {
+			position : relative;
+			width : 100.0%;
+			height: 100.0%;
+			left: 0.0%;
+			top: 0.0%;
 		}
-	</style>
-	<style> #map2 {
-		position : relative;
-		width : 100.0%;
-		height: 100.0%;
-		left: 0.0%;
-		top: 0.0%;
+
+		#map2{
+			position : relative;
+			width : 100.0%;
+			height: 100.0%;
+			left: 0.0%;
+			top: 0.0%;
 		}
+
+		#map3 {
+			position : relative;
+			width : 100.0%;
+			height: 100.0%;
+			left: 0.0%;
+			top: 0.0%;
+		}
+
+		#map4 {
+			position : relative;
+			width : 100.0%;
+			height: 100.0%;
+			left: 0.0%;
+			top: 0.0%;
+		}
+
+		div .leaflet-popup-content-wrapper {
+			opacity : 0.5;
+		}
+		
 	</style>
 	<style>
 		.map-overlay {

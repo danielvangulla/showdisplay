@@ -1,1 +1,1 @@
-@extends('iframe.fullscreen.map1')
+@include('iframe.fullscreen.Index_Kombos_Timur')

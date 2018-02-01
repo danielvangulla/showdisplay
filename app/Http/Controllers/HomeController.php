@@ -7,14 +7,15 @@ use DB;
 
 class HomeController extends Controller
 {
+	
     public function home()
 	{
 		return View('dashboard');
 	}
 	
-    public function map1()
+    public function map($no)
 	{
-		return View('map1');
+		return View('map'.$no);
 	}
 	
 }

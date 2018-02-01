@@ -1,0 +1,1 @@
+@include('iframe.fullscreen.Index_TernateTjg')
