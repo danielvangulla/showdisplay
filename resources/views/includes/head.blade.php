@@ -61,10 +61,12 @@
 		height: 100%;
 		margin: 0;
 		padding: 0;
-		background : url('image/bgdashboard.jpg');
-		background-size:cover;
-		background-repeat:no-repeat;
-		background-position:center center;
+		}
+		
+		body {
+			background : url('image/bgdashboard.jpg');
+			background-size:cover;
+			background-position:center center;
 		}
 	</style>
 	<style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
@@ -152,10 +154,6 @@
 			width : 99.2vw;
 		}
 		
-		.absolute {
-			margin : 5px;
-			height : 100%;
-		}
 		
 		.slider {
 			border : dotted red 1px;
@@ -180,5 +178,10 @@
 			opacity : 1;
 		}
 		
+		#hero {
+			margin-left : -45px;
+			height : 70vh;
+			width : 99vw;
+		}
 		
 	</style>
