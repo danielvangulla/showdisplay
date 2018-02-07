@@ -64,6 +64,57 @@
 			background-size:cover;
 			background-position:center center;
 		}
+		
+		.logoimg {
+			content : url("image/LogoBIGDAKOM3.png");
+			height : 15vh;
+			width : 13vw;
+		}
+		.scroll-left {
+			height: 50px; 
+			overflow: hidden;
+			position: relative;
+		}
+		
+		.scroll-left h2 {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			line-height: 50px;
+			text-align: center;
+			/* Starting position */
+			-moz-transform:translateX(50%);
+			-webkit-transform:translateX(50%); 
+			transform:translateX(50%);
+			/* Apply animation to this element */ 
+			-moz-animation: scroll-left 10s linear infinite;
+			-webkit-animation: scroll-left 10s linear infinite;
+			animation: scroll-left 10s linear infinite;
+		}
+		
+		/* Move it (define the animation) */
+		@-moz-keyframes scroll-left {
+			0% { -moz-transform: translateX(100%); }
+			100% { -moz-transform: translateX(-100%); }
+		}
+		
+		@-webkit-keyframes scroll-left {
+			0% { -webkit-transform: translateX(100%); }
+			100% { -webkit-transform: translateX(-100%); }
+		}
+		@keyframes scroll-left {
+			0% { 
+			-moz-transform: translateX(100%); /* Browser bug fix */
+			-webkit-transform: translateX(100%); /* Browser bug fix */
+			transform: translateX(100%); 
+			}
+			100% { 
+			-moz-transform: translateX(-100%); /* Browser bug fix */
+			-webkit-transform: translateX(-100%); /* Browser bug fix */
+			transform: translateX(-100%); 
+			}
+		}
 	</style>
 	<style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
 	<style> 
@@ -338,4 +389,127 @@
   border-right: 8px solid #982b29;
   content: "";
 }
+</style>
+
+
+
+<!-- Style untuk slider content -->
+<style>
+
+
+a
+{
+	text-decoration: none;
+	color: #111b47;
+}
+
+a:hover
+{
+	border-bottom: 1px dashed #ED971F;
+	color: #ED971F;
+}
+
+/**** slider ****/
+
+#slider, #ulslider
+{
+	height: 280px;
+}
+
+#slider
+{
+	margin: auto;
+	overflow: hidden;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	margin-top: 50px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.25);
+	position: relative;
+	width: 600px;
+}
+
+#slider li
+{
+	float: left;
+	position: relative;
+	width: 600px;
+	display: inline-block;
+	height: 200px;
+}
+
+#slider ul
+{
+	list-style: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 9000px;
+	transition: left .5s linear;
+	-moz-transition: left .5s linear;
+	-o-transition: left .5s linear;
+	-webkit-transition: left .5s linear;
+	margin-left: -40px;
+  font-family: century gothic;
+  color: #666;
+}
+
+/*** Content ***/
+
+.slider-container
+{
+	margin: 0 auto;
+	padding: 0;
+	width: 550px;
+  min-height: 180px;
+  border-bottom: 1px solid #ccc;
+}
+
+.slider-container h4
+{
+ 	color: #0A7FAD;
+  text-shadow: -1px 0px 0px rgba(0, 0, 0, 0.50);
+}
+
+.slider-container  p
+{
+	margin: 10px 25px;
+	font-weight: semi-bold;
+	line-height: 150%;
+	text-align: justify;
+}
+
+/*** target hooks ****/
+
+@-webkit-keyframes slide-animation {
+	0% {opacity:0;}
+	2% {opacity:1;}
+	20% {left:0px; opacity:1;}
+	22.5% {opacity:0.6;}
+	25% {left:-600px; opacity:1;}
+	45% {left:-600px; opacity:1;}
+	47.5% {opacity:0.6;}
+	50% {left:-1200px; opacity:1;}
+	70% {left:-1200px; opacity:1;}
+	72.5% {opacity:0.6;}
+	75% {left:-1800px; opacity:1;}
+	95% {opacity:1;}
+	98% {left:-1800px; opacity:0;} 
+	100% {left:0px; opacity:0;}
+}
+
+#slider ul
+{
+	-webkit-animation: slide-animation 25s infinite;
+}
+
+/* use to paused the content on mouse over */
+
+#slider ul:hover
+{
+	-moz-animation-play-state: paused;
+	-webkit-animation-play-state: paused;
+}
+
+
 </style>
