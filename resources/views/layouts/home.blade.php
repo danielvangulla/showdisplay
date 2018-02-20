@@ -3,9 +3,17 @@
     <head>
         @include('includes.head')
     </head>
-    <body >
-        
+    <body>
+	
 		<div id="content">
+			@include('content.navbar')
+			@include('content.kotamanado')
+			
+			@include('content.kecamatan.bunaken')
+			@include('content.kecamatan.bunakenkep')
+			@include('content.kecamatan.malalayang')
+			@include('content.kecamatan.mapanget')
+			
 			@yield('content')
 		</div>	
 			
