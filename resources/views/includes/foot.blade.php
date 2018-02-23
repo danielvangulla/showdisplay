@@ -9,6 +9,8 @@
 	<script src="{{ URL::asset('js/chart.js') }}"></script>
 	<script src="{{ URL::asset('js/chart_manado/global_variable.js') }}"></script>
 	
+	<script type="text/javascript" src="{{ URL::asset('wowslider/engine1/wowslider.js') }}"></script>
+	<script type="text/javascript" src="{{ URL::asset('wowslider/engine1/script.js') }}"></script>
 	
 	<script>
 	

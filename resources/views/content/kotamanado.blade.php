@@ -3,28 +3,33 @@
 	
 	<!-- === Slide 1 === -->
 	<div class="slide story" id="slide-1" data-slide="1">
+	
+	<div class="shadow"  style="margin-top:32px; padding:10px; opacity:0.8">
+		<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+		<div id="wowslider-container1">
+			<div class="ws_images"><ul>
+				<li><img src="{{ URL::asset('wowslider/data1/images/slide1.png') }}" alt="Slide 1" title="Slide 1" id="wows1_0"/></li>
+				<li><img src="{{ URL::asset('wowslider/data1/images/slide2.png') }}" alt="jquery carousel" title="slide2" id="wows1_1"/></a></li>
+				<li><img src="{{ URL::asset('wowslider/data1/images/slide3.png') }}" alt="slide3" title="slide3" id="wows1_2"/></li>
+			</ul></div>
+			<div class="ws_bullets">
+				<div>
+					<a href="#" title="Slide 1"><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide1.png') }}" alt="Slide 1"/>1</span></a>
+					<a href="#" title="slide2"><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide2.png') }}" alt="slide2"/>2</span></a>
+					<a href="#" title="slide3"><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide3.png') }}" alt="slide3"/>3</span></a>
+				</div>
+			</div>
+			<div class="ws_script" style="position:absolute;left:-99%"></div>
+			<div class="ws_shadow"></div>
+		</div>	
+		<!-- End WOWSlider.com BODY section -->
+	</div>
+		
 		<div class="container ">
 			<br>
 			<br>
 			<br>
-			<div class="row title-row ">
-				<div class="row">
-					<div class="col-3 fotowali shadow"></div>
-					<div class="col-1"></div>
-					<div class="col-4 logobigdakom shadow"></div>
-					<div class="col-1 "></div>
-					<div class="col-3 fotowawali shadow"></div>
-				</div>
-				<div class="row" style="margin-top:0px;">
-					<div class="col-3 shadow">
-						<span style="font-size:25px;">DR Ir. GSV Lumentut</span>
-					</div>
-					<div class="col-6 "><span style="font-size:35px;">BIG DATA KOTA MANADO</span></div>
-					<div class="col-3 shadow">
-						<span style="font-size:20px;">Mor Dominus Bastiaan</span>
-					</div>
-				</div>
-			</div><!-- /row -->
+			
 			
 			<div class="row content-row slide1container" style="margin-top:-30px;">
 			
@@ -33,7 +38,7 @@
 					<div class="x_title">
 					  <h2>Kepadatan Penduduk (Jiwa)</h2>
 					</div>
-					<div class="x_content" style="margin-top:0px;">
+					<div class="x_content" style="margin-top:-20px;">
 					  <table class="" style="width:100%">
 						<tr>
 						  <th style="width:37%;">

@@ -14,3 +14,8 @@
 <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 <link rel="prefetch" href="{{ URL::asset('munter/images/zoom.png') }}">
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('wowslider/engine1/style.css') }}" />
+<script type="text/javascript" src="{{ URL::asset('wowslider/engine1/jquery.js') }}"></script>
+<!-- End WOWSlider.com HEAD section -->

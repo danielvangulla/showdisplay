@@ -12,7 +12,6 @@
 			@include('content.kecamatan.bunaken')
 			@include('content.kecamatan.bunakenkep')
 			@include('content.kecamatan.malalayang')
-			@include('content.kecamatan.mapanget')
 			
 			@yield('content')
 		</div>	
