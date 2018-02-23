@@ -4,7 +4,7 @@
 	<!-- === Slide 1 === -->
 	<div class="slide story" id="slide-1" data-slide="1">
 	
-	<div class="shadow"  style="margin-top:32px; padding:10px; opacity:0.8">
+	<div class="shadow"  style="margin-top:32px; padding:10px; opacity:1">
 		<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
 		<div id="wowslider-container1">
 			<div class="ws_images"><ul>
@@ -25,14 +25,117 @@
 		<!-- End WOWSlider.com BODY section -->
 	</div>
 		
+		<div class="row">
+		<a href="#">
+			<div class="col-md-2 " style="float:left; margin-left:20px;">
+			
+				<div class="page foldtl " style="width: 11vw;">
+					
+				  <div class="row " style="margin-left:-18px; padding-right:10px; color:black;">
+					  <h2 style="font-size:20px; margin-top:-20px;" class="text-center">Rencana <br>Pembangunan <br>Kota</h2>
+					  
+				  </div>
+				  <div class="icon1">
+					</div>
+					
+				</div>
+			</div>
+		</a>
+		<a href="#">
+			<div class="col-md-2 " style="float:left; margin-left:-20px;">
+			
+				<div class="page foldtl " style="width: 11vw;">
+					
+				  <div class="row " style="margin-left:-18px; padding-right:10px; color:black;">
+					  <h2 style="font-size:20px; margin-top:-20px;" class="text-center">Peta Tematik <br>Kepadatan <br>Kota Manado</h2>
+					  
+				  </div>
+				  <div class="icon2">
+					</div>
+					
+				</div>
+			</div>
+		</a>
+		<a href="#">
+			<div class="col-md-2 " style="float:left; margin-left:-20px;">
+			
+				<div class="page foldtl " style="width: 11vw;">
+					
+				  <div class="row " style="margin-left:-18px; padding-right:10px; color:black;">
+					  <h2 style="font-size:20px; margin-top:-20px;" class="text-center">Data <br>Kemiskinan<br>Kota Manado</h2>
+					  
+				  </div>
+				  <div class="icon3">
+					</div>
+					
+				</div>
+			</div>
+		</a>
+		<a href="#">
+			<div class="col-md-2 " style="float:left; margin-left:-20px;">
+			
+				<div class="page foldtl " style="width: 11vw;">
+					
+				  <div class="row " style="margin-left:-18px; padding-right:10px; color:black;">
+					  <h2 style="font-size:20px; margin-top:-20px;" class="text-center">Status <br>Fungsi Jalan<br>Kota Manado</h2>
+					  
+				  </div>
+				  <div class="icon4">
+					</div>
+					
+				</div>
+			</div>
+		</a>
+		<a href="#">
+			<div class="col-md-2 " style="float:left; margin-left:-20px;">
+			
+				<div class="page foldtl " style="width: 11vw;">
+					
+				  <div class="row " style="margin-left:-18px; padding-right:10px; color:black;">
+					  <h2 style="font-size:20px; margin-top:-20px;" class="text-center">Data <br>Penduduk &<br>Pendidikan</h2>
+					  
+				  </div>
+				  <div class="icon5">
+					</div>
+					
+				</div>
+			</div>
+		</a>
+		<a href="#">
+			<div class="col-md-2 " style="float:left; margin-left:-20px;">
+			
+				<div class="page foldtl " style="width: 11vw;">
+					
+				  <div class="row " style="margin-left:-18px; padding-right:10px; color:black;">
+					  <h2 style="font-size:20px; margin-top:-20px;" class="text-center">Prasarana <br>dan<br>Sarana</h2>
+					  
+				  </div>
+				  <div class="icon6">
+					</div>
+					
+				</div>
+			</div>
+		</a>
+		
+		
+		</div>
+		<!--div class="col-md-12" >
+			
+			<div class="btn-group">
+			  <button class="btn btn-md btn-primary" style="font-size:20px;">Siaga Bencana 1</button>
+			  <button class="btn btn-md btn-primary" style="font-size:20px;">Siaga Bencana 2</button>
+			  <button class="btn btn-md btn-primary" style="font-size:20px;">Siaga Bencana 3</button>
+			  <button class="btn btn-md btn-success" style="font-size:20px;">Data 1</button>
+			  <button class="btn btn-md btn-success" style="font-size:20px;">Data 2</button>
+			  <button class="btn btn-md btn-success" style="font-size:20px;">Data 3</button>
+			</div>
+		</div-->
+		
 		<div class="container ">
-			<br>
-			<br>
-			<br>
 			
 			
-			<div class="row content-row slide1container" style="margin-top:-30px;">
-			
+			<div class="row content-row slide1container" style="margin-top:10px;">
+				
 				<div class="col-md-6 col-sm-6 col-xs-12" style="margin-top:-40px;">
 				  <div class="x_panel tile fixed_height_320 overflow_hidden">
 					<div class="x_title">

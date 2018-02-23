@@ -606,6 +606,10 @@ body {
 	box-shadow: -1px -1px 29px 7px rgba(0,0,0,0.9);
 }
 
+#btnmenu {
+	font-size:20px;
+}
+
 #navmenu {
 	font-size: 15px;
 	font-family: "Arial";
@@ -650,7 +654,61 @@ div#slider figure {
 }
 
 .logomdokota {
-	content : url('../images/logomdokota.jpeg');
+	content : url('../images/logomdokota.png');
+}
+
+.icon1 {
+	content : url('../images/icon1.png');
+	margin-top:-10px;
+	margin-left:25px;
+	width:8vw;
+	height:15vh;
+	opacity: 0.9;
+}
+
+.icon2 {
+	content : url('../images/icon2.png');
+	margin-top:-10px;
+	margin-left:25px;
+	width:8vw;
+	height:15vh;
+	opacity: 0.9;
+}
+
+.icon3 {
+	content : url('../images/icon3.png');
+	margin-top:-10px;
+	margin-left:25px;
+	width:8vw;
+	height:15vh;
+	opacity: 0.9;
+}
+
+.icon4 {
+	content : url('../images/icon4.png');
+	margin-top:-10px;
+	margin-left:25px;
+	width:8vw;
+	height:15vh;
+	opacity: 0.9;
+}
+
+.icon5 {
+	content : url('../images/icon5.png');
+	margin-top:-10px;
+	margin-left:25px;
+	width:8vw;
+	height:15vh;
+	opacity: 0.9;
+}
+
+.icon6 {
+	content : url('../images/icon6.png');
+	margin-top:-10px;
+	margin-left:25px;
+	width:8vw;
+	height:15vh;
+	opacity: 0.9;
 }
 
 .kecbunaken {
@@ -770,5 +828,92 @@ div#slider figure {
 
 .winangun2 {
 	content : url('../peta/malalayang/WINANGUN DUA.jpg');
+}
+
+
+.page {
+  background: #fff;
+  width: 350px;
+  height: 230px;
+  margin: 50px;
+   
+ /* Optional Gradient */
+  background: -moz-linear-gradient(bottom,  #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(bottom,  #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(bottom,  #ffffff 0%,#e5e5e5 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(bottom,  #ffffff 0%,#e5e5e5 100%); /* IE10+ */
+  background: linear-gradient(bottom,  #ffffff 0%,#e5e5e5 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+}
+
+.page h2 {
+  padding: 15px 0 0 20px;
+  font: 400 35px/1.5 'Lilita One', Helvetica, sans-serif;
+}
+ 
+.page p {
+  padding: 10px 20px;
+  font: 12px/1.5 Helvetica, sans-serif;
+  color: #4b4b4b;
+}
+
+.triangle {
+ width: 0px;
+ height: 0px;
+ border-bottom: 170px solid #000;
+ border-right: 170px solid transparent;
+}
+
+.foldtl {
+  position: relative;
+  -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+  -moz-box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+}
+
+.foldtl:before {
+  content: "";
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 0px;
+  height: 0px;
+  border-top: 70px solid #eee;
+  border-left: 70px solid transparent;
+  -webkit-box-shadow: 7px 7px 7px rgba(0,0,0,0.3);
+  -moz-box-shadow: 7px 7px 7px rgba(0,0,0,0.3);
+  box-shadow: 7px 7px 7px rgba(0,0,0,0.3);
+}
+
+.foldtl:after {
+  content: "";
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 0px;
+  height: 0px;
+  border-bottom: 69px solid rgba(255, 191, 31, 1); 
+  border-right: 69px solid transparent;
+  
+}
+
+.salePercentage {
+    font-weight: bold;
+    position: absolute;
+    padding-top: 35px;
+    padding-left: 5px;
+    z-index: 1;
+    color: #f02333;
+}
+
+.saleOff {
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 5px;
+    z-index: 1;
+    color: #f02333;
 }
 
