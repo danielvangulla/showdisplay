@@ -27,7 +27,7 @@
 		
 		<div class="row">
 		<a href="#">
-			<div class="col-md-2 " style="float:left; margin-left:20px;">
+			<div class="col-md-2 " style="float:left; margin-left:0px;">
 			
 				<div class="page foldtl " style="width: 11vw;">
 					
