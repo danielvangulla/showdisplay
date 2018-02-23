@@ -27,4 +27,9 @@ class HomeController extends Controller
 	{
 		return View('bencana.longsor.index');
 	}
+	
+	public function lingkungan()
+	{
+		return View('penduduk.lingkungan.index');
+	}
 }

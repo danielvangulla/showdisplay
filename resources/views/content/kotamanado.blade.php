@@ -26,21 +26,20 @@
 	</div>
 		
 		<div class="col-md-12 row">
-		<a href="#">
 			<div class="col-md-2 " style="float:left; margin-left:0px;">
 			
 				<div class="page foldtl " style="width: 11vw;">
 					
 				  <div class="row " style="margin-left:-18px; padding-right:10px; color:black;">
+					<a target="_blank" href="{{ URL::to('bencana/lingkungan') }}">
 					  <h2 style="font-size:20px; margin-top:-20px;" class="text-center">Rencana <br>Pembangunan <br>Kota</h2>
-					  
+					</a>
 				  </div>
 				  <div class="icon1">
 					</div>
 					
 				</div>
 			</div>
-		</a>
 			<div class="col-md-2 " style="float:left; margin-left:-30px;">
 			
 				<div class="page foldtl " style="width: 11vw;">
