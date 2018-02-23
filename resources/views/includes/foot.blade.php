@@ -45,18 +45,22 @@
 			
 		});
 		
+		function content1()
+		{
+			alert('test');
+		}
 	</script>
 	
 	<script src="{{ URL::asset('js/chart_manado/chart_all_manado.js') }}"></script>
 	<script src="{{ URL::asset('js/chart_manado/chart_bunaken.js') }}"></script>
 	<script src="{{ URL::asset('js/chart_manado/chart_bunaken_kep.js') }}"></script>
 	<script src="{{ URL::asset('js/chart_manado/chart_malalayang.js') }}"></script>
-	<script src="{{ URL::asset('js/chart_manado/chart_mapanget.js') }}"></script>
+	<!--script src="{{ URL::asset('js/chart_manado/chart_mapanget.js') }}"></script>
 	<script src="{{ URL::asset('js/chart_manado/chart_paal2.js') }}"></script>
 	<script src="{{ URL::asset('js/chart_manado/chart_sario.js') }}"></script>
 	<script src="{{ URL::asset('js/chart_manado/chart_singkil.js') }}"></script>
 	<script src="{{ URL::asset('js/chart_manado/chart_tikala.js') }}"></script>
 	<script src="{{ URL::asset('js/chart_manado/chart_tuminting.js') }}"></script>
 	<script src="{{ URL::asset('js/chart_manado/chart_wanea.js') }}"></script>
-	<script src="{{ URL::asset('js/chart_manado/chart_wenang.js') }}"></script>
+	<script src="{{ URL::asset('js/chart_manado/chart_wenang.js') }}"></script-->
 	

@@ -18,4 +18,13 @@ class HomeController extends Controller
 		return View('map'.$no);
 	}
 	
+	public function banjir()
+	{
+		return View('bencana.banjir.index');
+	}
+	
+	public function longsor()
+	{
+		return View('bencana.longsor.index');
+	}
 }

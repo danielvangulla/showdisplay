@@ -41,13 +41,15 @@
 				</div>
 			</div>
 		</a>
-		<a href="#">
 			<div class="col-md-2 " style="float:left; margin-left:-30px;">
 			
 				<div class="page foldtl " style="width: 11vw;">
 					
 				  <div class="row " style="margin-left:-18px; padding-right:10px; color:black;">
-					  <h2 style="font-size:20px; margin-top:-20px;" class="text-center">Peta Tematik <br>Kepadatan <br>Kota Manado</h2>
+					<h2 style="font-size:20px; margin-top:-20px;" class="text-center">Data <br>Bencana <br>
+						<a target="_blank" href="{{ URL::to('bencana/banjir') }}">Banjir</a> 
+						<a target="_blank" href="{{ URL::to('bencana/longsor') }}">Longsor</a>
+					</h2>
 					  
 				  </div>
 				  <div class="icon2">
@@ -55,7 +57,6 @@
 					
 				</div>
 			</div>
-		</a>
 		<a href="#">
 			<div class="col-md-2 " style="float:left; margin-left:-30px;">
 			
