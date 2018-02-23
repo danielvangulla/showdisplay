@@ -25,7 +25,7 @@
 		<!-- End WOWSlider.com BODY section -->
 	</div>
 		
-		<div class="row">
+		<div class="col-md-12 row">
 		<a href="#">
 			<div class="col-md-2 " style="float:left; margin-left:0px;">
 			
@@ -42,7 +42,7 @@
 			</div>
 		</a>
 		<a href="#">
-			<div class="col-md-2 " style="float:left; margin-left:-20px;">
+			<div class="col-md-2 " style="float:left; margin-left:-30px;">
 			
 				<div class="page foldtl " style="width: 11vw;">
 					
@@ -57,7 +57,7 @@
 			</div>
 		</a>
 		<a href="#">
-			<div class="col-md-2 " style="float:left; margin-left:-20px;">
+			<div class="col-md-2 " style="float:left; margin-left:-30px;">
 			
 				<div class="page foldtl " style="width: 11vw;">
 					
@@ -72,7 +72,7 @@
 			</div>
 		</a>
 		<a href="#">
-			<div class="col-md-2 " style="float:left; margin-left:-20px;">
+			<div class="col-md-2 " style="float:left; margin-left:-30px;">
 			
 				<div class="page foldtl " style="width: 11vw;">
 					
@@ -87,7 +87,7 @@
 			</div>
 		</a>
 		<a href="#">
-			<div class="col-md-2 " style="float:left; margin-left:-20px;">
+			<div class="col-md-2 " style="float:left; margin-left:-30px;">
 			
 				<div class="page foldtl " style="width: 11vw;">
 					
@@ -102,7 +102,7 @@
 			</div>
 		</a>
 		<a href="#">
-			<div class="col-md-2 " style="float:left; margin-left:-20px;">
+			<div class="col-md-2 " style="float:left; margin-left:-30px;">
 			
 				<div class="page foldtl " style="width: 11vw;">
 					
