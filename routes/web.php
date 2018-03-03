@@ -20,4 +20,4 @@ route::get('/map/{no}', 'HomeController@map');
 
 route::get('/bencana/banjir', 'HomeController@banjir');
 route::get('/bencana/longsor', 'HomeController@longsor');
-route::get('/bencana/lingkungan', 'HomeController@lingkungan');
+route::get('/penduduk/lingkungan', 'HomeController@lingkungan');
