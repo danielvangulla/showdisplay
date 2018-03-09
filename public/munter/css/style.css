@@ -650,11 +650,20 @@ div#slider figure {
 }
 
 .logobigdakom {
-	content : url('../images/Logo_v3.png');
+	content : url('../images/logo_v3.png');
+	float:left; 
+	width: 7vw; 
+	height:11vh; 
+	position:absolute; 
+	margin-left:80px;
 }
 
 .logomdokota {
 	content : url('../images/logomdokota.PNG');
+	width: 5vw; 
+	height:10.5vh; 
+	position:absolute; 
+	margin-top:2px;
 }
 
 .icon1 {
