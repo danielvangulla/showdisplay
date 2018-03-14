@@ -61,7 +61,7 @@
 			
 				<div class="page foldtl " style="width: 11vw;">
 					
-				  <div class="row " style="margin-left:-18px; padding-right:10px; color:black;">
+				  <div class="row " style="margin-left:-18px; padding-right:10px; color:black; ">
 					  <h2 style="font-size:20px; margin-top:-20px;" class="text-center">Data <br>Kemiskinan<br>Kota Manado</h2>
 					  
 				  </div>
