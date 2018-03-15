@@ -666,6 +666,15 @@ div#slider figure {
 	margin-top:2px;
 }
 
+.icondikomando {
+	content : url('../images/icondikomando.png');
+	margin-top:-10px;
+	margin-left:25px;
+	width:8vw;
+	height:15vh;
+	opacity: 0.9;
+}
+
 .icon1 {
 	content : url('../images/icon1.png');
 	margin-top:-10px;
