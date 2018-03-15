@@ -230,6 +230,7 @@ body {
     width: 100%;
 	background-attachment: relative;
 	background-position: center center;
+	height: 150vh;
 }
 
 #slide-1 h1 {
@@ -237,8 +238,8 @@ body {
 }
 
 .slide1container {
-	background: black;
-	opacity: 0.7;
+	background: white;
+	opacity: 1;
 }
 
 @media (max-width: 991px) {
@@ -913,7 +914,6 @@ div#slider figure {
   height: 0px;
   border-bottom: 69px solid rgba(255, 191, 31, 1); 
   border-right: 69px solid transparent;
-  
 }
 
 .salePercentage {
