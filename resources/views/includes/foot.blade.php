@@ -13,7 +13,21 @@
 	<script type="text/javascript" src="{{ URL::asset('wowslider/engine1/script.js') }}"></script>
 	
 	<script>
-	
+		$('#dikomando').click(function (){
+			window.open("http://36.67.90.85/mioc/vAlpha")
+		});
+		
+		$('#rpk').click(function (){
+			window.open(window.location.origin+"/penduduk/lingkungan")
+		});
+		
+		$('#banjir').click(function (){
+			window.open(window.location.origin+"/bencana/banjir")
+		});
+		
+		$('#longsor').click(function (){
+			window.open(window.location.origin+"/bencana/longsor")
+		});
 		
 		$(document).ready(function(e) {
 			var lis = $('.nav > li');

@@ -8,15 +8,15 @@
 		<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
 		<div id="wowslider-container1">
 			<div class="ws_images"><ul>
-				<li><img src="{{ URL::asset('wowslider/data1/images/slide1.png') }}" alt="Slide 1" title="Slide 1" id="wows1_0"/></li>
-				<li><img src="{{ URL::asset('wowslider/data1/images/slide2.png') }}" alt="jquery carousel" title="slide2" id="wows1_1"/></a></li>
-				<li><img src="{{ URL::asset('wowslider/data1/images/slide3.png') }}" alt="slide3" title="slide3" id="wows1_2"/></li>
+				<li><img src="{{ URL::asset('wowslider/data1/images/slide1.png') }}" alt="Slide 1" title="" id="wows1_0"/></li>
+				<li><img src="{{ URL::asset('wowslider/data1/images/slide2.png') }}" alt="jquery carousel" title="" id="wows1_1"/></a></li>
+				<li><img src="{{ URL::asset('wowslider/data1/images/slide3.png') }}" alt="slide3" title="" id="wows1_2"/></li>
 			</ul></div>
 			<div class="ws_bullets">
 				<div>
-					<a href="#" title="Slide 1"><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide1.png') }}" alt="Slide 1"/>1</span></a>
-					<a href="#" title="slide2"><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide2.png') }}" alt="slide2"/>2</span></a>
-					<a href="#" title="slide3"><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide3.png') }}" alt="slide3"/>3</span></a>
+					<a href="#" title=""><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide1.png') }}" alt="Slide1"/>1</span></a>
+					<a href="#" title=""><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide2.png') }}" alt="slide2"/>2</span></a>
+					<a href="#" title=""><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide3.png') }}" alt="slide3"/>3</span></a>
 				</div>
 			</div>
 			<div class="ws_script" style="position:absolute;left:-99%"></div>
@@ -25,29 +25,30 @@
 		<!-- End WOWSlider.com BODY section -->
 	</div>
 		
+		<ul class="nav">
 		<div class="col-md-12 row">
-			<div class="col-md-2 " style="float:left; margin-left:0px;">
-			
-				<div class="page foldtl " style="width: 11vw;">
-					
-				  <div class="row " style="margin-left:-18px; padding-right:10px; color:black;">
-					<a target="_blank" href="{{ URL::to('penduduk/lingkungan') }}">
-					  <h2 style="font-size:20px; margin-top:-20px;" class="text-center">Rencana <br>Pembangunan <br>Kota</h2>
-					</a>
-				  </div>
-				  <div class="icon1">
+			<a id="rpk" href="#">
+				<div class="col-md-2 " style="float:left; margin-left:0px;">
+				
+					<div class="page foldtl " style="width: 11vw;">
+						
+					  <div class="row " style="margin-left:-18px; padding-right:0px; color:black;">
+						  <h2 style="font-size:20px; margin-top:-20px;" class="text-center">Rencana <br>Pembangunan <br>Kota</h2>
+					  </div>
+					  <div class="icon1">
+						</div>
+						
 					</div>
-					
 				</div>
-			</div>
-			<div class="col-md-2 " style="float:left; margin-left:-30px;">
+			</a>
+			<div class="col-md-2 " style="float:left; margin-left:-80px;">
 			
 				<div class="page foldtl " style="width: 11vw;">
 					
 				  <div class="row " style="margin-left:-18px; padding-right:10px; color:black;">
 					<h2 style="font-size:20px; margin-top:-20px;" class="text-center">Data <br>Bencana <br>
-						<a target="_blank" href="{{ URL::to('bencana/banjir') }}">Banjir</a> 
-						<a target="_blank" href="{{ URL::to('bencana/longsor') }}">Longsor</a>
+						<a id="banjir" href="#">Banjir</a> 
+						<a id="longsor" href="#">Longsor</a>
 					</h2>
 					  
 				  </div>
@@ -56,80 +57,87 @@
 					
 				</div>
 			</div>
-		<a href="#">
-			<div class="col-md-2 " style="float:left; margin-left:-30px;">
-			
-				<div class="page foldtl " style="width: 11vw;">
-					
-				  <div class="row " style="margin-left:-18px; padding-right:10px; color:black; ">
-					  <h2 style="font-size:20px; margin-top:-20px;" class="text-center">Data <br>Kemiskinan<br>Kota Manado</h2>
-					  
-				  </div>
-				  <div class="icon3">
+			<a href="#">
+				<div class="col-md-2 " style="float:left; margin-left:-80px;">
+				
+					<div class="page foldtl " style="width: 11vw;">
+						
+					  <div class="row " style="margin-left:-18px; padding-right:10px; color:black; ">
+						  <h2 style="font-size:20px; margin-top:-20px;" class="text-center">Data <br>Kemiskinan<br>Kota Manado</h2>
+						  
+					  </div>
+					  <div class="icon3">
+						</div>
+						
 					</div>
-					
 				</div>
-			</div>
-		</a>
-		<a href="#">
-			<div class="col-md-2 " style="float:left; margin-left:-30px;">
-			
-				<div class="page foldtl " style="width: 11vw;">
-					
-				  <div class="row " style="margin-left:-18px; padding-right:10px; color:black;">
-					  <h2 style="font-size:20px; margin-top:-20px;" class="text-center">Status <br>Fungsi Jalan<br>Kota Manado</h2>
-					  
-				  </div>
-				  <div class="icon4">
+			</a>
+			<a href="#">
+				<div class="col-md-2 " style="float:left; margin-left:-80px;">
+				
+					<div class="page foldtl " style="width: 11vw;">
+						
+					  <div class="row " style="margin-left:-18px; padding-right:10px; color:black;">
+						  <h2 style="font-size:20px; margin-top:-20px;" class="text-center">Status <br>Fungsi Jalan<br>Kota Manado</h2>
+						  
+					  </div>
+					  <div class="icon4">
+						</div>
+						
 					</div>
-					
 				</div>
-			</div>
-		</a>
-		<a href="#">
-			<div class="col-md-2 " style="float:left; margin-left:-30px;">
-			
-				<div class="page foldtl " style="width: 11vw;">
-					
-				  <div class="row " style="margin-left:-18px; padding-right:10px; color:black;">
-					  <h2 style="font-size:20px; margin-top:-20px;" class="text-center">Data <br>Penduduk &<br>Pendidikan</h2>
-					  
-				  </div>
-				  <div class="icon5">
+			</a>
+			<a href="#">
+				<div class="col-md-2 " style="float:left; margin-left:-80px;">
+				
+					<div class="page foldtl " style="width: 11vw;">
+						
+					  <div class="row " style="margin-left:-18px; padding-right:10px; color:black;">
+						  <h2 style="font-size:20px; margin-top:-20px;" class="text-center">Data <br>Penduduk &<br>Pendidikan</h2>
+						  
+					  </div>
+					  <div class="icon5">
+						</div>
+						
 					</div>
-					
 				</div>
-			</div>
-		</a>
-		<a href="#">
-			<div class="col-md-2 " style="float:left; margin-left:-30px;">
-			
-				<div class="page foldtl " style="width: 11vw;">
-					
-				  <div class="row " style="margin-left:-18px; padding-right:10px; color:black;">
-					  <h2 style="font-size:20px; margin-top:-20px;" class="text-center">Prasarana <br>dan<br>Sarana</h2>
-					  
-				  </div>
-				  <div class="icon6">
+			</a>
+			<a href="#">
+				<div class="col-md-2 " style="float:left; margin-left:-80px;">
+				
+					<div class="page foldtl " style="width: 11vw;">
+						
+					  <div class="row " style="margin-left:-18px; padding-right:10px; color:black;">
+						  <h2 style="font-size:20px; margin-top:-20px;" class="text-center">Prasarana <br>dan<br>Sarana</h2>
+						  
+					  </div>
+					  <div class="icon6">
+						</div>
+						
 					</div>
-					
 				</div>
-			</div>
-		</a>
+			</a>
 		
-		
+			<li data-slide="99" class="col-12 col-sm-2">
+				<a id="dikomando" href="#slide-99" id="menu-link-99" title="DIKOMANDO">
+					<div class="col-md-2 " style="float:left; margin-left:-80px;">
+					
+						<div class="page foldtl " style="width: 11vw;">
+							
+						  <div class="row " style="margin-left:-18px; padding-right:10px; color:black;">
+							  <h2 style="font-size:20px; margin-top:-20px;" class="text-center">Dikomando <br>Map <br><br></h2>
+							  
+						  </div>
+						  <div class="icondikomando">
+							</div>
+							
+						</div>
+					</div>
+				</a>
+			</li>
+		</ul>
 		</div>
-		<!--div class="col-md-12" >
-			
-			<div class="btn-group">
-			  <button class="btn btn-md btn-primary" style="font-size:20px;">Siaga Bencana 1</button>
-			  <button class="btn btn-md btn-primary" style="font-size:20px;">Siaga Bencana 2</button>
-			  <button class="btn btn-md btn-primary" style="font-size:20px;">Siaga Bencana 3</button>
-			  <button class="btn btn-md btn-success" style="font-size:20px;">Data 1</button>
-			  <button class="btn btn-md btn-success" style="font-size:20px;">Data 2</button>
-			  <button class="btn btn-md btn-success" style="font-size:20px;">Data 3</button>
-			</div>
-		</div-->
+		
 		
 		<div class="container ">
 			
