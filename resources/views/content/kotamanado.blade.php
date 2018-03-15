@@ -118,23 +118,21 @@
 				</div>
 			</a>
 		
-			<li data-slide="99" class="col-12 col-sm-2">
-				<a id="dikomando" href="#slide-99" id="menu-link-99" title="DIKOMANDO">
-					<div class="col-md-2 " style="float:left; margin-left:-80px;">
-					
-						<div class="page foldtl " style="width: 11vw;">
-							
-						  <div class="row " style="margin-left:-18px; padding-right:10px; color:black;">
-							  <h2 style="font-size:20px; margin-top:-20px;" class="text-center">Dikomando <br>Map <br><br></h2>
-							  
-						  </div>
-						  <div class="icondikomando">
-							</div>
-							
+			<a id="dikomando" href="#slide-99" id="menu-link-99" title="DIKOMANDO">
+				<div class="col-md-2 " style="float:left; margin-left:-80px;">
+				
+					<div class="page foldtl " style="width: 11vw;">
+						
+					  <div class="row " style="margin-left:-18px; padding-right:10px; color:black;">
+						  <h2 style="font-size:20px; margin-top:-20px;" class="text-center">Dikomando <br>Map <br><br></h2>
+						  
+					  </div>
+					  <div class="icondikomando">
 						</div>
+						
 					</div>
-				</a>
-			</li>
+				</div>
+			</a>
 		</ul>
 		</div>
 		
