@@ -25,8 +25,8 @@
 		<!-- End WOWSlider.com BODY section -->
 	</div>
 		
-		<ul class="nav">
 		<div class="col-md-12 row">
+		<ul class="nav">
 			<a id="rpk" href="#">
 				<div class="col-md-2 " style="float:left; margin-left:0px;">
 				
@@ -139,7 +139,7 @@
 		</div>
 		
 		
-		<div class="container" >
+		<div class="container" style="color:black; opacity:0.7">
 			
 			
 			<div class="row content-row slide1container" style="margin-top:10px;">
