@@ -139,7 +139,7 @@
 		</div>
 		
 		
-		<div class="container" style="">
+		<div class="container" style="margin-top:-400px; opacity:1;">
 			
 			
 			<div class="row content-row slide1container" style="margin-top:10px;">
