@@ -118,7 +118,7 @@
 				</div>
 			</a>
 		
-			<a id="dikomando" href="#slide-99" id="menu-link-99" title="DIKOMANDO">
+			<a id="dikomando" data-toggle="modal" data-target="#fsModal" title="DIKOMANDO">
 				<div class="col-md-2 " style="float:left; margin-left:-80px;">
 				
 					<div class="page foldtl " style="width: 11vw;">

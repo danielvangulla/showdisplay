@@ -1,7 +1,9 @@
 
 	<div class="navbar navbar-fixed-top" data-activeslide="1">
-		<div class="logobigdakom"></div>
-		<div class="logomdokota"></div>
+		<div style="margin-top:5px;">
+			<div class="logobigdakom"></div>
+			<div class="logomdokota"></div>
+		</div>
 		<div class="container">
 		
 			
