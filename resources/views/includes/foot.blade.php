@@ -13,9 +13,12 @@
 	<script type="text/javascript" src="{{ URL::asset('wowslider/engine1/script.js') }}"></script>
 	
 	<script>
-		$('#dikomando').click(function (){
-			window.open("http://36.67.90.85/mioc/vAlpha")
-		});
+		// $('#dikomando').click(function (){
+			// window.open("http://36.67.90.85/mioc/vAlpha")
+		// });
+		$('.modal').on('shown.bs.modal',function(){
+		  $(this).find('iframe').attr('src','http://www.google.com')
+		})
 		
 		$('#rpk').click(function (){
 			window.open(window.location.origin+"/penduduk/lingkungan")
