@@ -25,46 +25,109 @@
 		<!-- End WOWSlider.com BODY section -->
 	</div>
 		
-		<div class="col-12 row">
+		<div class="col-md-12 row" style="margin: 30px auto;">
 		
-			<div class="col-2">
+			<div class="col-md-2 row" style="float:left;">
+				<a id="rpk" href="#" data-toggle="modal" data-target="#fsModal">
+					<div class="page foldtl">
+						
+					  <div style="color:black;">
+						  <h2 style="font-size:20px;" class="text-center">Rencana <br>Pembangunan <br>Kota</h2>
+					  </div>
+					  <div class="icon1" style="margin: 0 auto;"></div>
+						
+					</div>
+				</a>
+			</div>
 				
+			<div class="col-md-2 " style="float:left; margin-left:-30px;">
+				<div class="page foldtl">
+					
+				  <div style="color:black;">
+					<h2 style="font-size:20px;" class="text-center">Data <br>Bencana <br>
+						<a id="banjir" href="#"  data-toggle="modal" data-target="#fsModal">Banjir</a> 
+						<a id="longsor" href="#"  data-toggle="modal" data-target="#fsModal">Longsor</a>
+					</h2>
+					  
+				  </div>
+				  <div class="icon2">
+					</div>
+					
+				</div>
 			</div>
-			
-			<div class="col-1">
-				<div class="icon1"></div>
-			</div>
-			
-			<div class="col-1">
-				<div class="icon2"></div>
-			</div>
-			
-			<div class="col-1">
-				<div class="icon3"></div>
-			</div>
-			
-			<div class="col-1">
-				<div class="icon4"></div>
-			</div>
-			
-			<div class="col-1">
-				<div class="icon5"></div>
-			</div>
-			
-			<div class="col-1">
-				<div class="icon6"></div>
-			</div>
-			
-			<div class="col-1">
-				<div class="icontematik"></div>
-			</div>
-			
-			<div class="col-1">
-				<div class="icondikomando"></div>
-			</div>
-			
-			<div class="col-2">
+			<a href="#">
+				<div class="col-md-2 " style="float:left; margin-left:-30px;">
+					<div class="page foldtl">
+						
+					  <div class="row " style="color:black; ">
+						  <h2 style="font-size:20px;" class="text-center">Data <br>Kemiskinan<br>Kota Manado</h2>
+						  
+					  </div>
+					  <div class="icon3">
+						</div>
+						
+					</div>
+				</div>
+			</a>
+			<a href="#">
+				<div class="col-md-2" style="float:left; margin-left:-30px;">
+					<div class="page foldtl">
+						
+					  <div class="row" style="color:black;">
+						  <h2 style="font-size:20px;" class="text-center">Status <br>Fungsi Jalan<br>Kota Manado</h2>
+						  
+					  </div>
+					  <div class="icon4">
+						</div>
+						
+					</div>
+				</div>
+			</a>
+			<a href="#">
+				<div class="col-md-2" style="float:left; margin-left:-30px;">
 				
+					<div class="page foldtl">
+						
+					  <div class="row " style="color:black;">
+						  <h2 style="font-size:20px;" class="text-center">Data <br>Penduduk &<br>Pendidikan</h2>
+						  
+					  </div>
+					  <div class="icon5">
+						</div>
+						
+					</div>
+				</div>
+			</a>
+			<a href="#">
+				<div class="col-md-2" style="float:left; margin-left:-30px;">
+				
+					<div class="page foldtl">
+						
+					  <div class="row " style="color:black;">
+						  <h2 style="font-size:20px;" class="text-center">Prasarana <br>dan<br>Sarana</h2>
+						  
+					  </div>
+					  <div class="icon6">
+						</div>
+						
+					</div>
+				</div>
+			</a>
+		
+			<div class="col-md-2 " style="float:left; margin-left:-30px;">
+				<a id="dikomando" href="#"  data-toggle="modal" data-target="#fsModal" title="DIKOMANDO">
+				
+					<div class="page foldtl">
+						
+					  <div class="row " style="color:black;">
+						  <h2 style="font-size:20px;" class="text-center">Dikomando <br>Map <br><br></h2>
+						  
+					  </div>
+					  <div class="icondikomando">
+						</div>
+						
+					</div>
+				</a>
 			</div>
 			
 		</div>
