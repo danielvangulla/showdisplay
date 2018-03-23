@@ -27,7 +27,7 @@
 		
 		<div class="col-md-12 row">
 		<ul class="nav">
-			<a id="rpk" href="#">
+			<a id="rpk" href="#" data-toggle="modal" data-target="#fsModal">
 				<div class="col-md-2 " style="float:left; margin-left:0px;">
 				
 					<div class="page foldtl " style="width: 11vw;">
@@ -47,8 +47,8 @@
 					
 				  <div class="row " style="margin-left:-18px; padding-right:10px; color:black;">
 					<h2 style="font-size:20px; margin-top:-20px;" class="text-center">Data <br>Bencana <br>
-						<a id="banjir" href="#">Banjir</a> 
-						<a id="longsor" href="#">Longsor</a>
+						<a id="banjir" href="#"  data-toggle="modal" data-target="#fsModal">Banjir</a> 
+						<a id="longsor" href="#"  data-toggle="modal" data-target="#fsModal">Longsor</a>
 					</h2>
 					  
 				  </div>
@@ -118,7 +118,7 @@
 				</div>
 			</a>
 		
-			<a id="dikomando" data-toggle="modal" data-target="#fsModal" title="DIKOMANDO">
+			<a id="dikomando" href="#"  data-toggle="modal" data-target="#fsModal" title="DIKOMANDO">
 				<div class="col-md-2 " style="float:left; margin-left:-80px;">
 				
 					<div class="page foldtl " style="width: 11vw;">
