@@ -19,12 +19,9 @@
       <!-- body -->
 
       <!-- footer -->
-      <div class="modal-footer">
-        <button class="btn btn-secondary"
-                data-dismiss="modal">
-          close
-        </button>
-      </div>
+			<a href="#" class="btn btn-danger btn-xs" data-dismiss="modal">
+				<span class="glyphicon glyphicon-remove">Tutup</span>
+			</a>
       <!-- footer -->
 
     </div>
