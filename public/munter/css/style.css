@@ -216,7 +216,7 @@ body {
 }
 
 #slide-1 {
-	background-image: url('../images/bg1_old.jpg');
+	background-image: url('../images/bg1.jpg');
 	color: #ffffff;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -237,7 +237,7 @@ body {
 }
 
 .slide1container {
-	background: white;
+	top: 50px;
 	opacity: 1;
 }
 
@@ -666,66 +666,78 @@ div#slider figure {
 	margin-top:2px;
 }
 
-.icondikomando {
-	content : url('../images/icondikomando.png');
+.icontematik {
+	content : url('../images/icon/tematik.png');
 	margin-top:-10px;
 	margin-left:25px;
-	width:8vw;
-	height:15vh;
+	width:12vw;
+	height:24vh;
+	opacity: 0.9;
+}
+
+.icondikomando {
+	content : url('../images/icon/dikomando.png');
+	margin-top:-10px;
+	margin-left:25px;
+	width:12vw;
+	height:24vh;
 	opacity: 0.9;
 }
 
 .icon1 {
-	content : url('../images/icon1.png');
+	content : url('../images/icon/icon1.png');
 	margin-top:-10px;
 	margin-left:25px;
-	width:8vw;
-	height:15vh;
+	width:12vw;
+	height:24vh;
 	opacity: 0.9;
+}
+.icon1-mouseover {
+	content : url('../images/icon/icon1_glow.png');
 }
 
 .icon2 {
-	content : url('../images/icon2.png');
+	content : url('../images/icon/icon2.png');
 	margin-top:-10px;
 	margin-left:25px;
-	width:8vw;
-	height:15vh;
+	width:12vw;
+	height:24vh;
 	opacity: 0.9;
 }
 
 .icon3 {
-	content : url('../images/icon3.png');
+	content : url('../images/icon/icon3.png');
 	margin-top:-10px;
 	margin-left:25px;
-	width:8vw;
-	height:15vh;
+	width:12vw;
+	height:24vh;
 	opacity: 0.9;
 }
 
 .icon4 {
-	content : url('../images/icon4.png');
+	content : url('../images/icon/icon4.png');
 	margin-top:-10px;
 	margin-left:25px;
-	width:8vw;
-	height:15vh;
+	width:12vw;
+	height:24vh;
 	opacity: 0.9;
 }
 
 .icon5 {
-	content : url('../images/icon5.png');
+	content : url('../images/icon/icon5.png');
 	margin-top:-10px;
 	margin-left:25px;
-	width:8vw;
-	height:15vh;
+	width:12vw;
+	height:24vh;
 	opacity: 0.9;
 }
 
 .icon6 {
-	content : url('../images/icon6.png');
+	content : url('../images/icon/icon6.png');
 	margin-top:-10px;
 	margin-left:25px;
-	width:8vw;
-	height:15vh;
+	width:12vw;
+	height:24vh;
 	opacity: 0.9;
 }
 

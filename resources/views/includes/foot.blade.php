@@ -13,6 +13,13 @@
 	<script type="text/javascript" src="{{ URL::asset('wowslider/engine1/script.js') }}"></script>
 	
 	<script>
+		$(".icon1").mouseenter(function(){
+			$(".icon1").attr({style: "url(../images/icon/icon1_glow.png)" });
+		});
+		$(".icon1").mouseleave(function(){
+			$(".icon1").attr({style: "url(../images/icon/icon1.png)" });
+		});
+	
 		$('#dikomando').click(function (){
 			$('#embed').attr('src',"http://36.67.90.85/mioc/vAlpha")
 		});
