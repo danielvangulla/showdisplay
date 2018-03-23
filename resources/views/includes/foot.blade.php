@@ -13,23 +13,20 @@
 	<script type="text/javascript" src="{{ URL::asset('wowslider/engine1/script.js') }}"></script>
 	
 	<script>
-		// $('#dikomando').click(function (){
-			// window.open("http://36.67.90.85/mioc/vAlpha")
-		// });
-		$('.modal').on('shown.bs.modal',function(){
-		  $(this).find('iframe').attr('src','http://www.google.com')
-		})
+		$('#dikomando').click(function (){
+			$('#embed').attr('src',"http://36.67.90.85/mioc/vAlpha")
+		});
 		
 		$('#rpk').click(function (){
-			window.open(window.location.origin+"/penduduk/lingkungan")
+			$('#embed').attr('src',window.location.origin+"/penduduk/lingkungan")
 		});
 		
 		$('#banjir').click(function (){
-			window.open(window.location.origin+"/bencana/banjir")
+			$('#embed').attr('src',window.location.origin+"/bencana/banjir")
 		});
 		
 		$('#longsor').click(function (){
-			window.open(window.location.origin+"/bencana/longsor")
+			$('#embed').attr('src',window.location.origin+"/bencana/longsor")
 		});
 		
 		$(document).ready(function(e) {

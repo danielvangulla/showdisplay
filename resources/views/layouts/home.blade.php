@@ -4,9 +4,10 @@
         @include('includes.head')
     </head>
     <body>
-		@include('content.dikomando')
 		
 		<div id="content">
+			@include('content.dikomando')
+		
 			@include('content.navbar')
 			@include('content.kotamanado')
 			
