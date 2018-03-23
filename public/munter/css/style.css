@@ -652,8 +652,8 @@ div#slider figure {
 .logobigdakom {
 	content : url('../images/logo_v3.png');
 	float:left; 
-	width: 7vw; 
-	height:11vh; 
+	width: 6vw; 
+	height:10vh; 
 	position:absolute; 
 	margin-left:80px;
 }
@@ -661,7 +661,7 @@ div#slider figure {
 .logomdokota {
 	content : url('../images/logomdokota.PNG');
 	width: 5vw; 
-	height:10.5vh; 
+	height:10vh; 
 	position:absolute; 
 	margin-top:2px;
 }
@@ -851,9 +851,9 @@ div#slider figure {
 
 .page {
   background: #fff;
-  width: 350px;
+  width: 180px;
   height: 230px;
-  margin: 50px;
+  margin: 30px;
    
  /* Optional Gradient */
   background: -moz-linear-gradient(bottom,  #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
@@ -863,17 +863,6 @@ div#slider figure {
   background: -ms-linear-gradient(bottom,  #ffffff 0%,#e5e5e5 100%); /* IE10+ */
   background: linear-gradient(bottom,  #ffffff 0%,#e5e5e5 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
-}
-
-.page h2 {
-  padding: 15px 0 0 20px;
-  font: 400 35px/1.5 'Lilita One', Helvetica, sans-serif;
-}
- 
-.page p {
-  padding: 10px 20px;
-  font: 12px/1.5 Helvetica, sans-serif;
-  color: #4b4b4b;
 }
 
 .triangle {
@@ -888,20 +877,6 @@ div#slider figure {
   -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
   -moz-box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
   box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
-}
-
-.foldtl:before {
-  content: "";
-  position: absolute;
-  bottom: 0%;
-  left: 0%;
-  width: 0px;
-  height: 0px;
-  border-top: 70px solid #eee;
-  border-left: 70px solid transparent;
-  -webkit-box-shadow: 7px 7px 7px rgba(0,0,0,0.3);
-  -moz-box-shadow: 7px 7px 7px rgba(0,0,0,0.3);
-  box-shadow: 7px 7px 7px rgba(0,0,0,0.3);
 }
 
 .foldtl:after {
@@ -934,3 +909,150 @@ div#slider figure {
     color: #f02333;
 }
 
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400);
+.font-roboto {
+  font-family: 'roboto condensed';
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'roboto condensed';
+}
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0px;
+  overflow: hidden;
+}
+.modal-dialog {
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+.modal-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -768px;
+  border: 2px solid #3c7dcf;
+  border-radius: 0;
+  width: 100vw;
+  box-shadow: none;
+}
+.modal-header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 30px;
+  padding: 10px;
+  background: #6598d9;
+  opacity: 0.5;
+}
+.modal-title {
+  font-weight: 300;
+  font-size: 2em;
+  color: #fff;
+  line-height: 30px;
+}
+.modal-body {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  bottom: 0;
+  width: 102.4vw;
+  height: 104vh;
+  overflow: hidden;
+}
+.modal-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  padding: 10px;
+  background: #f1f3f5;
+}
+.btn {
+  position: absolute;
+  top : 1;
+  right : 1px;
+  font-size: 14px;
+}
+.btn:focus,
+.btn:active,
+.btn:active:focus {
+  box-shadow: none;
+  outline: none;
+}
+.btn-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -20px;
+  margin-left: -100px;
+  width: 200px;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  font-weight: 300;
+  font-size: 1.6rem;
+  color: #767b93;
+  color: #fff;
+  text-align: center;
+  background: #60cc69;
+  border: 1px solid #36a940;
+  border-bottom: 3px solid #36a940;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+.btn-primary:active,
+.btn-primary:hover:active,
+.btn-primary:focus:active,
+.btn-primary:active:active {
+  border-bottom: 1px solid #36a940;
+}
+.btn-default,
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+  font-weight: 300;
+  font-size: 1.6rem;
+  color: #fff;
+  text-align: center;
+  background: #bfc5ce;
+  border: 1px solid #a2aab8;
+  border-bottom: 3px solid #a2aab8;
+}
+.btn-default:active,
+.btn-default:hover:active,
+.btn-default:focus:active,
+.btn-default:active:active {
+  border-bottom: 1px solid #a2aab8;
+}
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+  color: #cc7272;
+  background: transparent;
+  border: 0;
+}
+
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+  background: #f1f3f5;
+  border-left: 1px solid #d3d9e0;
+}
+::-webkit-scrollbar-thumb {
+  background: #b5c0cb;
+}
