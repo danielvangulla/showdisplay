@@ -4,83 +4,86 @@
 	<!-- === Slide 1 === -->
 	<div class="slide story" id="slide-1" data-slide="1">
 	
-	<div class="shadow"  style="margin-top:32px; padding:10px; opacity:1">
-		<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-		<div id="wowslider-container1">
-			<div class="ws_images"><ul>
-				<li><img src="{{ URL::asset('wowslider/data1/images/slide1.png') }}" alt="Slide 1" title="" id="wows1_0"/></li>
-				<li><img src="{{ URL::asset('wowslider/data1/images/slide2.png') }}" alt="jquery carousel" title="" id="wows1_1"/></a></li>
-				<li><img src="{{ URL::asset('wowslider/data1/images/slide3.png') }}" alt="slide3" title="" id="wows1_2"/></li>
-			</ul></div>
-			<div class="ws_bullets">
-				<div>
-					<a href="#" title=""><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide1.png') }}" alt="Slide1"/>1</span></a>
-					<a href="#" title=""><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide2.png') }}" alt="slide2"/>2</span></a>
-					<a href="#" title=""><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide3.png') }}" alt="slide3"/>3</span></a>
+		<div class="shadow"  style="margin-top:32px; padding:10px; opacity:1">
+			<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+			<div id="wowslider-container1">
+				<div class="ws_images"><ul>
+					<li><img src="{{ URL::asset('wowslider/data1/images/slide1.png') }}" alt="Slide 1" title="" id="wows1_0"/></li>
+					<li><img src="{{ URL::asset('wowslider/data1/images/slide2.png') }}" alt="jquery carousel" title="" id="wows1_1"/></a></li>
+					<li><img src="{{ URL::asset('wowslider/data1/images/slide3.png') }}" alt="slide3" title="" id="wows1_2"/></li>
+				</ul></div>
+				<div class="ws_bullets">
+					<div>
+						<a href="#" title=""><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide1.png') }}" alt="Slide1"/>1</span></a>
+						<a href="#" title=""><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide2.png') }}" alt="slide2"/>2</span></a>
+						<a href="#" title=""><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide3.png') }}" alt="slide3"/>3</span></a>
+					</div>
 				</div>
-			</div>
-			<div class="ws_script" style="position:absolute;left:-99%"></div>
-			<div class="ws_shadow"></div>
-		</div>	
-		<!-- End WOWSlider.com BODY section -->
-	</div>
+				<div class="ws_script" style="position:absolute;left:-99%"></div>
+				<div class="ws_shadow"></div>
+			</div>	
+			<!-- End WOWSlider.com BODY section -->
+		</div>
 		
-		<div class="col-12 row">
+		<div class="col-12 row" style="margin-top: 20px;">
 		
 			<div class="col-2">
-				
-			</div>
-			
-			<div class="col-1">
 				<div class="icon1"></div>
 			</div>
 			
-			<div class="col-1">
+			<div class="col-2">
 				<div class="icon2"></div>
 			</div>
 			
-			<div class="col-1">
+			<div class="col-2">
 				<div class="icon3"></div>
 			</div>
 			
-			<div class="col-1">
+			<div class="col-2">
 				<div class="icon4"></div>
 			</div>
 			
-			<div class="col-1">
+			<div class="col-2">
 				<div class="icon5"></div>
 			</div>
 			
-			<div class="col-1">
+			<div class="col-2">
 				<div class="icon6"></div>
 			</div>
+		</div>
+		
+		<div class="col-12">
 			
-			<div class="col-1">
-				<div class="icontematik"></div>
-			</div>
-			
-			<div class="col-1">
-				<div class="icondikomando"></div>
+			<div class="col-4">
+				
 			</div>
 			
 			<div class="col-2">
+				<div class="icontematik"></div>
+			</div>
+			
+			<div class="col-2">
+				<div class="icondikomando"></div>
+			</div>
+			
+			<div class="col-4">
 				
 			</div>
 			
 		</div>
 		
 		
-		<div class="container" style="color:black; opacity:0.7">
-			
-			
-			<div class="row content-row slide1container" style="margin-top:10px;">
+		<div class="container" style="color:black; opacity:0.7;">
+		
+		
+			<div class="row content-row slide1container" style="margin-top: 80px;">
 				
-				<div class="col-md-6 col-sm-6 col-xs-12" style="margin-top:-40px;">
+				<div class="col-md-6 col-sm-6 col-xs-6">
 				  <div class="x_panel tile fixed_height_320 overflow_hidden">
-					<div class="x_title">
+					<div class="x_title" style="margin-top: -50px;">
 					  <h2>Kepadatan Penduduk (Jiwa)</h2>
 					</div>
-					<div class="x_content" style="margin-top:-20px;">
+					<div class="x_content" style="margin-top: -40px;">
 					  <table class="" style="width:100%">
 						<tr>
 						  <th style="width:37%;">
@@ -168,12 +171,12 @@
 				  </div>
 				</div>
 				
-				<div class="col-md-6 col-sm-6 col-xs-12" style="margin-top:-40px;">
+				<div class="col-md-6 col-sm-6 col-xs-12">
 				  <div class="x_panel tile fixed_height_320 overflow_hidden">
-					<div class="x_title">
+					<div class="x_title" style="margin-top: -50px;">
 					  <h2>Mata Pencaharian (KK)</h2>
 					</div>
-					<div class="x_content" style="margin-top:0px;">
+					<div class="x_content" style="margin-top: -40px;">
 					  <table class="" style="width:100%">
 						<tr>
 						  <th style="width:37%;">
@@ -236,6 +239,8 @@
 				
 			</div><!-- /row -->
 		</div><!-- /container -->
+		
+		<br>
 	</div><!-- /slide1 -->
 	
 	
