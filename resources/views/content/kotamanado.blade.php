@@ -40,7 +40,7 @@
 				</a>
 			</div>
 				
-			<div class="col-md-2 " style="float:left; margin-left:-30px;">
+			<div class="col-md-2" style="float:left; margin-left:-30px;">
 				<div class="page foldtl">
 					
 				  <div style="color:black;">
