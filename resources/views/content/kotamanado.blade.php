@@ -28,11 +28,15 @@
 		<div class="col-12 row" style="margin-top: 20px;">
 		
 			<div class="col-2">
-				<div class="icon1"></div>
+				<a id="rpk" href="#" data-toggle="modal" data-target="#fsModal">
+					<div class="icon1"></div>
+				</a>
 			</div>
 			
 			<div class="col-2">
-				<div class="icon2"></div>
+				<a id="banjir" href="#" data-toggle="modal" data-target="#fsModal">
+					<div class="icon2" id="banjir"></div>
+				</a>
 			</div>
 			
 			<div class="col-2">
@@ -59,11 +63,13 @@
 			</div>
 			
 			<div class="col-2">
-				<div class="icontematik"></div>
+				<div class="icontematik" id="tematik"></div>
 			</div>
 			
 			<div class="col-2">
-				<div class="icondikomando"></div>
+				<a id="dikomando" href="#" data-toggle="modal" data-target="#fsModal">
+					<div class="icondikomando" id="dikomando"></div>
+				</a>
 			</div>
 			
 			<div class="col-4">
@@ -73,17 +79,15 @@
 		</div>
 		
 		
-		<div class="container" style="color:black; opacity:0.7;">
-		
-		
-			<div class="row content-row slide1container" style="margin-top: 80px;">
+		<div class="container container-custom" style="color:white; opacity:0.7;">
+			<div class="row content-row slide1container">
 				
 				<div class="col-md-6 col-sm-6 col-xs-6">
 				  <div class="x_panel tile fixed_height_320 overflow_hidden">
-					<div class="x_title" style="margin-top: -50px;">
+					<div class="x_title">
 					  <h2>Kepadatan Penduduk (Jiwa)</h2>
 					</div>
-					<div class="x_content" style="margin-top: -40px;">
+					<div class="x_content">
 					  <table class="" style="width:100%">
 						<tr>
 						  <th style="width:37%;">
@@ -167,16 +171,17 @@
 						  </th>
 						</tr>
 					  </table>
+					  <br>
 					</div>
 				  </div>
 				</div>
 				
 				<div class="col-md-6 col-sm-6 col-xs-12">
 				  <div class="x_panel tile fixed_height_320 overflow_hidden">
-					<div class="x_title" style="margin-top: -50px;">
+					<div class="x_title">
 					  <h2>Mata Pencaharian (KK)</h2>
 					</div>
-					<div class="x_content" style="margin-top: -40px;">
+					<div class="x_content">
 					  <table class="" style="width:100%">
 						<tr>
 						  <th style="width:37%;">

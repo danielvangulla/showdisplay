@@ -236,9 +236,13 @@ body {
 	padding-top: 150px;
 }
 
+.container-custom {
+	background: black;
+	margin-top: 400px;
+}
+
 .slide1container {
-	top: 50px;
-	opacity: 1;
+	margin-left: 30px;
 }
 
 @media (max-width: 991px) {
@@ -666,25 +670,8 @@ div#slider figure {
 	margin-top:2px;
 }
 
-.icontematik {
-	content : url('../images/icon/tematik.png');
-	margin-top:-10px;
-	margin-left:25px;
-	width:12vw;
-	height:24vh;
-	opacity: 0.9;
-}
-
-.icondikomando {
-	content : url('../images/icon/dikomando.png');
-	margin-top:-10px;
-	margin-left:25px;
-	width:12vw;
-	height:24vh;
-	opacity: 0.9;
-}
-
 .icon1 {
+	content : url('../images/icon/icon1_glow.png');
 	content : url('../images/icon/icon1.png');
 	margin-top:-10px;
 	margin-left:25px;
@@ -692,11 +679,9 @@ div#slider figure {
 	height:24vh;
 	opacity: 0.9;
 }
-.icon1-mouseover {
-	content : url('../images/icon/icon1_glow.png');
-}
 
 .icon2 {
+	content : url('../images/icon/icon2_glow.png');
 	content : url('../images/icon/icon2.png');
 	margin-top:-10px;
 	margin-left:25px;
@@ -706,6 +691,7 @@ div#slider figure {
 }
 
 .icon3 {
+	content : url('../images/icon/icon3_glow.png');
 	content : url('../images/icon/icon3.png');
 	margin-top:-10px;
 	margin-left:25px;
@@ -715,6 +701,7 @@ div#slider figure {
 }
 
 .icon4 {
+	content : url('../images/icon/icon4_glow.png');
 	content : url('../images/icon/icon4.png');
 	margin-top:-10px;
 	margin-left:25px;
@@ -724,6 +711,7 @@ div#slider figure {
 }
 
 .icon5 {
+	content : url('../images/icon/icon5_glow.png');
 	content : url('../images/icon/icon5.png');
 	margin-top:-10px;
 	margin-left:25px;
@@ -733,7 +721,28 @@ div#slider figure {
 }
 
 .icon6 {
+	content : url('../images/icon/icon6_glow.png');
 	content : url('../images/icon/icon6.png');
+	margin-top:-10px;
+	margin-left:25px;
+	width:12vw;
+	height:24vh;
+	opacity: 0.9;
+}
+
+.icontematik {
+	content : url('../images/icon/tematik_glow.png');
+	content : url('../images/icon/tematik.png');
+	margin-top:-10px;
+	margin-left:25px;
+	width:12vw;
+	height:24vh;
+	opacity: 0.9;
+}
+
+.icondikomando {
+	content : url('../images/icon/dikomando_glow.png');
+	content : url('../images/icon/dikomando.png');
 	margin-top:-10px;
 	margin-left:25px;
 	width:12vw;
