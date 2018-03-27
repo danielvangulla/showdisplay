@@ -216,7 +216,7 @@ body {
 }
 
 #slide-1 {
-	background-image: url('../images/bg1_old.jpg');
+	background-image: url('../images/bg1.jpg');
 	color: #ffffff;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -236,9 +236,13 @@ body {
 	padding-top: 150px;
 }
 
+.container-custom {
+	background: black;
+	margin-top: 400px;
+}
+
 .slide1container {
-	background: white;
-	opacity: 1;
+	margin-left: 30px;
 }
 
 @media (max-width: 991px) {
@@ -666,66 +670,83 @@ div#slider figure {
 	margin-top:2px;
 }
 
-.icondikomando {
-	content : url('../images/icondikomando.png');
-	margin-top:-10px;
-	margin-left:25px;
-	width:8vw;
-	height:15vh;
-	opacity: 0.9;
-}
-
 .icon1 {
-	content : url('../images/icon1.png');
+	content : url('../images/icon/icon1_glow.png');
+	content : url('../images/icon/icon1.png');
 	margin-top:-10px;
 	margin-left:25px;
-	width:8vw;
-	height:15vh;
+	width:12vw;
+	height:24vh;
 	opacity: 0.9;
 }
 
 .icon2 {
-	content : url('../images/icon2.png');
+	content : url('../images/icon/icon2_glow.png');
+	content : url('../images/icon/icon2.png');
 	margin-top:-10px;
 	margin-left:25px;
-	width:8vw;
-	height:15vh;
+	width:12vw;
+	height:24vh;
 	opacity: 0.9;
 }
 
 .icon3 {
-	content : url('../images/icon3.png');
+	content : url('../images/icon/icon3_glow.png');
+	content : url('../images/icon/icon3.png');
 	margin-top:-10px;
 	margin-left:25px;
-	width:8vw;
-	height:15vh;
+	width:12vw;
+	height:24vh;
 	opacity: 0.9;
 }
 
 .icon4 {
-	content : url('../images/icon4.png');
+	content : url('../images/icon/icon4_glow.png');
+	content : url('../images/icon/icon4.png');
 	margin-top:-10px;
 	margin-left:25px;
-	width:8vw;
-	height:15vh;
+	width:12vw;
+	height:24vh;
 	opacity: 0.9;
 }
 
 .icon5 {
-	content : url('../images/icon5.png');
+	content : url('../images/icon/icon5_glow.png');
+	content : url('../images/icon/icon5.png');
 	margin-top:-10px;
 	margin-left:25px;
-	width:8vw;
-	height:15vh;
+	width:12vw;
+	height:24vh;
 	opacity: 0.9;
 }
 
 .icon6 {
-	content : url('../images/icon6.png');
+	content : url('../images/icon/icon6_glow.png');
+	content : url('../images/icon/icon6.png');
 	margin-top:-10px;
 	margin-left:25px;
-	width:8vw;
-	height:15vh;
+	width:12vw;
+	height:24vh;
+	opacity: 0.9;
+}
+
+.icontematik {
+	content : url('../images/icon/tematik_glow.png');
+	content : url('../images/icon/tematik.png');
+	margin-top:-10px;
+	margin-left:25px;
+	width:12vw;
+	height:24vh;
+	opacity: 0.9;
+}
+
+.icondikomando {
+	content : url('../images/icon/dikomando_glow.png');
+	content : url('../images/icon/dikomando.png');
+	margin-top:-10px;
+	margin-left:25px;
+	width:12vw;
+	height:24vh;
 	opacity: 0.9;
 }
 

@@ -13,9 +13,6 @@
 	<script type="text/javascript" src="{{ URL::asset('wowslider/engine1/script.js') }}"></script>
 	
 	<script>
-		$('#dikomando').click(function (){
-			$('#embed').attr('src',"http://36.67.90.85/mioc/vAlpha")
-		});
 		
 		$('#rpk').click(function (){
 			$('#embed').attr('src',window.location.origin+"/penduduk/lingkungan")
@@ -27,6 +24,10 @@
 		
 		$('#longsor').click(function (){
 			$('#embed').attr('src',window.location.origin+"/bencana/longsor")
+		});
+		
+		$('#dikomando').click(function (){
+			$('#embed').attr('src',"http://36.67.90.85/mioc/vAlpha")
 		});
 		
 		$(document).ready(function(e) {
@@ -63,6 +64,65 @@
 		{
 			alert('test');
 		}
+	</script>
+	<script>
+	
+		$(".icon1").mouseenter(function(){
+			$(".icon1").attr({style: "content:url('munter/images/icon/icon1_glow.png')" });
+		});
+		$(".icon1").mouseleave(function(){
+			$(".icon1").attr({style: "content:url('munter/images/icon/icon1.png')" });
+		});
+	
+		$(".icon2").mouseenter(function(){
+			$(".icon2").attr({style: "content:url('munter/images/icon/icon2_glow.png')" });
+		});
+		$(".icon2").mouseleave(function(){
+			$(".icon2").attr({style: "content:url('munter/images/icon/icon2.png')" });
+		});
+	
+		$(".icon3").mouseenter(function(){
+			$(".icon3").attr({style: "content:url('munter/images/icon/icon3_glow.png')" });
+		});
+		$(".icon3").mouseleave(function(){
+			$(".icon3").attr({style: "content:url('munter/images/icon/icon3.png')" });
+		});
+	
+		$(".icon4").mouseenter(function(){
+			$(".icon4").attr({style: "content:url('munter/images/icon/icon4_glow.png')" });
+		});
+		$(".icon4").mouseleave(function(){
+			$(".icon4").attr({style: "content:url('munter/images/icon/icon4.png')" });
+		});
+	
+		$(".icon5").mouseenter(function(){
+			$(".icon5").attr({style: "content:url('munter/images/icon/icon5_glow.png')" });
+		});
+		$(".icon5").mouseleave(function(){
+			$(".icon5").attr({style: "content:url('munter/images/icon/icon5.png')" });
+		});
+	
+		$(".icon6").mouseenter(function(){
+			$(".icon6").attr({style: "content:url('munter/images/icon/icon6_glow.png')" });
+		});
+		$(".icon6").mouseleave(function(){
+			$(".icon6").attr({style: "content:url('munter/images/icon/icon6.png')" });
+		});
+	
+		$(".icontematik").mouseenter(function(){
+			$(".icontematik").attr({style: "content:url('munter/images/icon/tematik_glow.png')" });
+		});
+		$(".icontematik").mouseleave(function(){
+			$(".icontematik").attr({style: "content:url('munter/images/icon/tematik.png')" });
+		});
+	
+		$(".icondikomando").mouseenter(function(){
+			$(".icondikomando").attr({style: "content:url('munter/images/icon/dikomando_glow.png')" });
+		});
+		$(".icondikomando").mouseleave(function(){
+			$(".icondikomando").attr({style: "content:url('munter/images/icon/dikomando.png')" });
+		});
+	
 	</script>
 	
 	<script src="{{ URL::asset('js/chart_manado/chart_all_manado.js') }}"></script>
