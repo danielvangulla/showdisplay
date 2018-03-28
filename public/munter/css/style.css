@@ -211,7 +211,7 @@ body {
 	background-position: center center;
 	background-repeat: no-repeat;
 	padding-bottom: 65px;
-	padding-top: 50px;
+	padding-top: 65px;
 	text-align: center;
 }
 
@@ -232,13 +232,15 @@ body {
 	background-position: center center;
 }
 
-#slide-1 h1 {
-	padding-top: 150px;
+.shadow {
+	margin-top:40px; 
+	padding:5px; 
+	opacity:1;
 }
 
 .container-custom {
 	background: black;
-	margin-top: 400px;
+	margin-top: 500px;
 }
 
 .slide1container {
@@ -654,12 +656,13 @@ div#slider figure {
 }
 
 .logobigdakom {
-	content : url('../images/logo_v3.png');
+	content : url('../images/logo_v3_landscape.png');
 	float:left; 
-	width: 6vw; 
-	height:10vh; 
-	position:absolute; 
-	margin-left:80px;
+	width: 12vw; 
+	height:12vh; 
+	position:absolute;
+	margin-left:100px;
+	margin-top:-13px;
 }
 
 .logomdokota {
@@ -667,12 +670,11 @@ div#slider figure {
 	width: 5vw; 
 	height:10vh; 
 	position:absolute; 
-	margin-top:2px;
+	margin-top:0px;
 }
 
 .icon1 {
 	content : url('../images/icon/icon1_glow.png');
-	content : url('../images/icon/icon1.png');
 	margin-top:-10px;
 	margin-left:25px;
 	width:12vw;
@@ -682,7 +684,6 @@ div#slider figure {
 
 .icon2 {
 	content : url('../images/icon/icon2_glow.png');
-	content : url('../images/icon/icon2.png');
 	margin-top:-10px;
 	margin-left:25px;
 	width:12vw;
@@ -692,7 +693,6 @@ div#slider figure {
 
 .icon3 {
 	content : url('../images/icon/icon3_glow.png');
-	content : url('../images/icon/icon3.png');
 	margin-top:-10px;
 	margin-left:25px;
 	width:12vw;
@@ -702,7 +702,6 @@ div#slider figure {
 
 .icon4 {
 	content : url('../images/icon/icon4_glow.png');
-	content : url('../images/icon/icon4.png');
 	margin-top:-10px;
 	margin-left:25px;
 	width:12vw;
@@ -712,7 +711,6 @@ div#slider figure {
 
 .icon5 {
 	content : url('../images/icon/icon5_glow.png');
-	content : url('../images/icon/icon5.png');
 	margin-top:-10px;
 	margin-left:25px;
 	width:12vw;
@@ -722,7 +720,6 @@ div#slider figure {
 
 .icon6 {
 	content : url('../images/icon/icon6_glow.png');
-	content : url('../images/icon/icon6.png');
 	margin-top:-10px;
 	margin-left:25px;
 	width:12vw;
@@ -732,7 +729,6 @@ div#slider figure {
 
 .icontematik {
 	content : url('../images/icon/tematik_glow.png');
-	content : url('../images/icon/tematik.png');
 	margin-top:-10px;
 	margin-left:25px;
 	width:12vw;
@@ -742,7 +738,6 @@ div#slider figure {
 
 .icondikomando {
 	content : url('../images/icon/dikomando_glow.png');
-	content : url('../images/icon/dikomando.png');
 	margin-top:-10px;
 	margin-left:25px;
 	width:12vw;
@@ -934,23 +929,33 @@ div#slider figure {
 .font-roboto {
   font-family: 'roboto condensed';
 }
-* {
-  box-sizing: border-box;
-}
+
+
 body {
   font-family: 'roboto condensed';
 }
 .modal {
-  position: fixed;
+  position: relative;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0px;
   overflow: hidden;
 }
+
+@media (min-width: 1000px)/* The minimum width of the display area, such as a browser window*/
+{
+  .modal-dialog {
+      width: 1000px;
+  }
+}
+
 .modal-dialog {
   position: fixed;
-  margin: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   padding: 0;
@@ -960,12 +965,13 @@ body {
   top: 0;
   right: 0;
   bottom: 0;
-  left: -768px;
+  left: 0;
   border: 2px solid #3c7dcf;
   border-radius: 0;
   width: 100vw;
   box-shadow: none;
 }
+
 .modal-header {
   position: absolute;
   top: 0;

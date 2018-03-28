@@ -4,7 +4,7 @@
 	<!-- === Slide 1 === -->
 	<div class="slide story" id="slide-1" data-slide="1">
 	
-		<div class="shadow"  style="margin-top:32px; padding:10px; opacity:1">
+		<div class="shadow">
 			<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
 			<div id="wowslider-container1">
 				<div class="ws_images"><ul>
