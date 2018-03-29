@@ -8,21 +8,21 @@
 			<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
 			<div id="wowslider-container1">
 				<div class="ws_images"><ul>
-					<li><img src="{{ URL::asset('wowslider/data1/images/slide1.png') }}" alt="Slide 1" title="" id="wows1_0"/></li>
-					<li><img src="{{ URL::asset('wowslider/data1/images/slide2.png') }}" alt="jquery carousel" title="" id="wows1_1"/></a></li>
-					<li><img src="{{ URL::asset('wowslider/data1/images/slide3.png') }}" alt="slide3" title="" id="wows1_2"/></li>
+					<li><img src="{{ URL::asset('wowslider/data1/images/slide_1.jpg') }}" alt="slide 1" title="" id="wows1_0"/></li>
+					<li><img src="{{ URL::asset('wowslider/data1/images/slide_2.jpg') }}" alt="slide 2" title="" id="wows1_1"/></li>
+					<li><img src="{{ URL::asset('wowslider/data1/images/slide_3.jpg') }}" alt="slide 3" title="" id="wows1_2"/></li>
+					<li><img src="{{ URL::asset('wowslider/data1/images/slide_4.jpg') }}" alt="css image slider" title="" id="wows1_3"/></a></li>
+					<li><img src="{{ URL::asset('wowslider/data1/images/slide_5.jpg') }}" alt="slide 5" title="" id="wows1_4"/></li>
 				</ul></div>
-				<div class="ws_bullets">
-					<div>
-						<a href="#" title=""><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide1.png') }}" alt="Slide1"/>1</span></a>
-						<a href="#" title=""><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide2.png') }}" alt="slide2"/>2</span></a>
-						<a href="#" title=""><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide3.png') }}" alt="slide3"/>3</span></a>
-					</div>
-				</div>
-				<div class="ws_script" style="position:absolute;left:-99%"></div>
-				<div class="ws_shadow"></div>
+				<div class="ws_bullets"><div>
+					<a href="#" title=""><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide_1.jpg') }}" alt="slide 1"/>1</span></a>
+					<a href="#" title=""><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide_2.jpg') }}" alt="slide 2"/>2</span></a>
+					<a href="#" title=""><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide_3.jpg') }}" alt="slide 3"/>3</span></a>
+					<a href="#" title=""><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide_4.jpg') }}" alt="slide 4"/>4</span></a>
+					<a href="#" title=""><span><img src="{{ URL::asset('wowslider/data1/tooltips/slide_5.jpg') }}" alt="slide 5"/>5</span></a>
+				</div></div>
+			<div class="ws_shadow"></div>
 			</div>	
-			<!-- End WOWSlider.com BODY section -->
 		</div>
 		
 		<div class="col-12 row" style="margin-top: 20px;">
